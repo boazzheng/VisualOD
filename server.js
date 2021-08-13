@@ -31,7 +31,7 @@ db.once('open', () => console.log('Connected to Mongoose'));
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
-app.set('layout', 'layouts/admin-layout');
+app.set('layout', 'layouts/admin-layout', 'layouts/user-layout');
 app.use(expressLayouts);
 // app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }));

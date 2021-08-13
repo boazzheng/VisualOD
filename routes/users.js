@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const User = require('../models/user')
 const City = require('../models/city')
+const bcrypt = require('bcrypt');
 
 // All Users Route
 router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
@@ -22,11 +23,11 @@ router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
     const users = await User.find(searchOptions).sort({createdAt: -1}).populate('city')
     res.render('users/index', {
       users: users,
-      search: req.query.search
+      search: req.query.search,
     })
   } catch {
     res.redirect('/')
-  }s
+  }
 })
 
 // Display New User Route
@@ -47,11 +48,12 @@ router.post('/',  checkAuthenticated, checkIsAdmin, async (req, res) => {
       }
     } 
     try {
+      const hashedPassword = await bcrypt.hash(req.body.password, 10);
       const user = new User({
         name: req.body.name,
         email: req.body.email,
         city: cidade._id,
-        password: req.body.password
+        password: hashedPassword
       })
       const newUser = await user.save()
       res.redirect(`users/`)
@@ -67,7 +69,8 @@ router.post('/',  checkAuthenticated, checkIsAdmin, async (req, res) => {
 
 router.get('/:id/edit', checkAuthenticated, checkIsAdmin, async (req, res) => {
   try {
-    const user = await User.findById(req.params.id)
+    const user = await User.findById(req.params.id).populate('city')
+    // console.log(user)
     res.render('users/edit', { user: user })
   } catch {
     res.redirect('/users')
@@ -80,8 +83,20 @@ router.put('/:id/', checkAuthenticated, checkIsAdmin, async (req, res) => {
     user = await User.findById(req.params.id)
     user.name = req.body.name
     user.email = req.body.email
-    user.password = req.body.password
-    user.city = req.body.city
+    let cidade = await City.findOne({name: req.body.city})
+    if (!cidade) {
+      try {
+        cidade = new City({name: req.body.city})
+        const newCity = await cidade.save()
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    user.city = cidade._id
+    if (req.body.password) {
+      const hashedPassword = await bcrypt.hash(req.body.password, 10);
+      user.password = hashedPassword
+    }
     await user.save()
     res.redirect(`/users`)
   } catch (err) {
