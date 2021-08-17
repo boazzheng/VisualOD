@@ -14,6 +14,7 @@ const mongoose = require('mongoose');
 
 const userRouter = require('./routes/users');
 const indexRouter = require('./routes/index');
+const cityRouter = require('./routes/cities');
 
 mongoose.connect(
     process.env.DATABASE_URL, 
@@ -33,7 +34,7 @@ app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.set('layout', 'layouts/admin-layout', 'layouts/user-layout');
 app.use(expressLayouts);
-// app.use(express.static('public'));
+app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }));
 app.use(express.urlencoded({ extended: false }));
 app.use(flash());
@@ -47,6 +48,7 @@ app.use(passport.session());
 app.use(methodOverride('_method'));
 
 app.use('/users', userRouter);
+app.use('/cities', cityRouter);
 app.use('/', indexRouter);
 
 app.listen(3000)

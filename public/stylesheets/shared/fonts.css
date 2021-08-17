@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('/fonts/GothamRounded-Bold.woff2') format('woff2'),
+		url('/fonts/GothamRounded-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('/fonts/GothamRounded-Medium.woff2') format('woff2'),
+		url('/fonts/GothamRounded-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('/fonts/GothamRounded-Light.woff2') format('woff2'),
+		url('/fonts/GothamRounded-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Rounded Book';
+	src: url('/fonts/GothamRounded-Book.woff2') format('woff2'),
+		url('/fonts/GothamRounded-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Black';
+	src: url('/fonts/Roboto-Black.woff2') format('woff2'),
+		url('/fonts/Roboto-Black.ttf') format('ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
+		url('/fonts/Roboto-Bold.ttf') format('ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+		url('/fonts/Roboto-Regular.ttf') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Thin';
+	src: url('/fonts/Roboto-Thin.woff2') format('woff2'),
+		url('/fonts/Roboto-Thin.ttf') format('ttf');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
+		url('/fonts/Roboto-Medium.ttf') format('ttf');
+	font-weight: 500;
+	font-style: normal;
+}
