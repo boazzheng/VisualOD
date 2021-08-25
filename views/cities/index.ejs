@@ -1,3 +1,14 @@
+<script>
+  function ConfirmDelete(url){
+    if (confirm("Deletar Cidade?")){
+      return window.location.href = url;
+    }
+    else {
+       return false;
+    }
+  } 
+</script>
+
 <h2 class="page-header">Buscar Cidade</h2>
 <form action="/cities" method="GET">
   <div class="form-row">
@@ -19,7 +30,7 @@
     
     <div class="btn-row">
       <a class="btn btn-primary" href="/cities/<%= city.id %>/edit">Editar</a>
-      <form action="/cities/<%= city.id %>?_method=DELETE" method="POST">
+      <form action="/cities/<%= city.id %>?_method=DELETE" method="POST" onsubmit="return ConfirmDelete('/delete/<%= city.id %>')">
         <div class="form-item">
           <button class="btn btn-danger" type="submit">Deletar</button>
         </div>

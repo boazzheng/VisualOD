@@ -1,0 +1,271 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* logo */
+#logo {
+    display: block;
+    max-height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+} 
+
+/* inicio offcanvas */
+    .offcanvas-body {
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    .cor-tema {
+        color: var(--btn-color);
+    }
+    /* botao de expandir offcanvas */
+    .btn-offcanvas {
+        display: block;
+        z-index: 100;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 25px;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(230, 230, 230);
+        width: 50px;
+        opacity: .9;
+        position: fixed;
+    }
+    .btn-offcanvas:hover {
+        box-shadow:  0 0 0 .25rem rgb(206, 206, 206);
+    }
+    .bi-caret-right-fill {
+        color: white;
+    }
+
+    /* botao colapsar offcanvas */
+    #btn-close {
+        position: absolute;
+        right: 10px;
+        top: 13px;
+    }
+
+    /* botoes de item do offcanvas */
+    h2.accordion-header {
+        position: relative;
+    }
+    h2 button.btn-acc {
+        padding: .5rem .6rem .5rem .75rem;
+    }
+
+    /* titulo offcanvas */
+    .offcanvas-title {
+        color: rgb(41, 87, 155);
+        font-size: 75px;
+        font-weight: bold;
+        text-shadow: 1px 1px rgb(41, 77, 135);
+    }
+
+    /* botoes selecao e limpar offcanvas */
+    .btn-selecao-orig, .btn-selecao-dest, .btn-selecao-tipo {
+        position: absolute;
+        top: 2.5px;
+        right: 105px;
+        z-index: 100;
+        background-color: var(--btn-color);
+    } 
+    .btn-limpar-orig, .btn-limpar-dest, .btn-limpar-tipo {
+        position: absolute;
+        top: 2.5px;
+        right: 40px;
+        z-index: 100;
+        background-color: gray;
+        color: white;
+    }
+    /* icones do offcanvas */
+    .icones-oc {
+        margin-right: 15px;
+        color: var(--btn-color);
+    }
+
+    /* itens do offcanvas */
+    .accordion-button {
+        padding: .5rem .75rem;
+        color: var(--btn-color);
+    }
+
+    /* campos de data e hora */
+    .form-control {
+        padding: .375rem .4rem;
+    }
+
+    /* botao dia-tipo e hora-pico */
+    .btn-dia-tipo {
+        box-sizing: border-box;
+        max-width: 42px;
+        min-width: 42px;
+        padding: 6px 6px;
+        border-color: rgba(128, 128, 128, 0.5);
+        color: var(--btn-color);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .btn-hora-pico {
+        box-sizing: border-box;
+        padding: 6px 6px;
+        max-width: 42px;
+        min-width: 42px;
+        border-color: rgba(128, 128, 128, 0.5);
+        color: var(--btn-color);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    /* grupo botao data ou hora */
+    .input-group {
+        margin-bottom: .5rem;
+    }
+    /* botao de zonas */
+    :root{
+        --btn-color: rgb(73, 115, 192);
+    }
+    .btn-zonas{
+        color: var(--btn-color);
+        display: block;
+        border: 2px solid var(--btn-color);
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        margin: 3px auto;
+        border-radius: 5px;
+    }
+    .botao-zonas-container{
+        padding: 0 5px; 
+    }
+    .btn-zonas:hover, .btn-zonas:active{
+        font-weight: bold;
+        border: 3px solid var(--btn-color);
+    }
+    
+    /* botao de tipo de pagamento */
+    .btn-pagamentos{
+        display: block;
+        border: 1px 0px solid var(--btn-color);
+        color: var(--btn-color);
+        text-align: left;
+        margin: 2px 0px;
+        padding: 0px 5px;
+        width: 100%;
+    }
+    .btn-pagamentos:hover {
+        font-weight: bold;
+    }
+    .btn-pagamentos:active {
+        color: white;
+    }
+    .btn-check:checked + .btn-outline-primary {
+        background-color: var(--btn-color);
+        font-weight: bold;
+        color: white;
+    }
+    .btn-zona-selected{
+        background-color: var(--btn-color);
+        font-weight: bold;
+        color: white;
+    }
+    .btn-tipo-selected{
+        background-color: var(--btn-color);
+        font-weight: bold;
+        color: white;
+        border-radius: 2px;
+    }
+    .fluxos-table {
+        color: var(--btn-color);
+        overflow: auto;
+        text-align: center;
+        /* border-collapse: separate; */
+    }
+    .limitar-tabela {
+        max-height: 500px;
+        overflow: auto;
+    }
+    thead {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        box-shadow: inset 0 1px 0 var(--btn-color), inset 0 -1px 0 var(--btn-color);
+    }
+    /* dimensao offcanvas */
+    .offcanvas {
+        width: 100%;
+        max-width: 420px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    /* #collapse-four {
+        max-height: 500px;
+    } */
+
+    /* botao calendario */
+    .icone-calendario {
+        margin-right: 0;
+    }
+
+    /* botao dia tipo
+    .btn-dia-tipo {
+        border: 2px solid var(--btn-color);
+    } */
+/* fim offcanvas */
+
+/* inicio mapa */
+#mapa{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.zonasLabels{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4);
+    border:0;
+    border-radius:5px;
+    box-shadow: 0 0px 0px;
+    z-index: 100;
+}
+
+/* esconde o tringulo do tooltip */
+.leaflet-tooltip-top:before, 
+.leaflet-tooltip-bottom:before, 
+.leaflet-tooltip-left:before, 
+.leaflet-tooltip-right:before {
+    border: none !important;
+}
+/* fim mapa */
+
+/* inicio legenda */
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.titulo-legenda {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(8,81,156);
+}
+.bi-people-fill {
+    font-size: 14px;
+}
+
+/* fim legenda */

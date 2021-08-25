@@ -1,3 +1,14 @@
+<script>
+  function ConfirmDelete(url){
+    if (confirm("Deletar Usuário?")){
+      return window.location.href = url;
+    }
+    else {
+       return false;
+    }
+  } 
+</script>
+
 <h2 class="page-header">Buscar Usuário</h2>
 <form action="/users" method="GET">
   <div class="form-row">
@@ -27,7 +38,7 @@
     </div>
     <div class="btn-row">
       <a class="btn btn-primary" href="/users/<%= user.id %>/edit">Editar</a>
-      <form action="/users/<%= user.id %>?_method=DELETE" method="POST">
+      <form action="/users/<%= user.id %>?_method=DELETE" method="POST" onsubmit="return ConfirmDelete('/delete/<%= user.id %>')">
         <div class="form-item">
           <button class="btn btn-danger" type="submit">Deletar</button>
         </div>
@@ -35,4 +46,4 @@
 
     </div>
   </div>
-  <% }) %>
+<% }) %>

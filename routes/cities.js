@@ -2,10 +2,12 @@ const express = require('express')
 const router = express.Router()
 const City = require('../models/city')
 const User = require('../models/user')
-const bcrypt = require('bcrypt');
+const formidable = require('formidable')
+const fs = require('fs')
 
 // All cities Route
 router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let searchOptions = {}
   if (req.query.search != null && req.query.search !== '') {
     searchOptions = {
@@ -17,10 +19,16 @@ router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
     }
   };
   try {
-    const cities = await City.find(searchOptions).sort({createdAt: -1}).populate('city')
+    const cities = await City.find(searchOptions).sort({ createdAt: -1 }).populate('city')
+    if (req.query.error) {
+      res.locals.errorMessage = req.query.error
+    } else {
+      res.locals.errorMessage = null
+    }
     res.render('cities/index', {
       cities: cities,
       search: req.query.search,
+      // errorMessage: errorMessage
     })
   } catch {
     res.redirect('/')
@@ -29,13 +37,28 @@ router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
 
 // Display New City Route
 router.get('/new', checkAuthenticated, checkIsAdmin, (req, res) => {
+  res.locals.errorMessage = checkError(req);
   res.render('cities/new', { city: new City() })
 })
 
 // Create City Route
-router.post('/',  checkAuthenticated, checkIsAdmin, async (req, res) => {
+router.post('/', checkAuthenticated, checkIsAdmin, (req, res) => {
+  res.locals.errorMessage = checkError(req);
+  const form = formidable({multiples:false})
+  form.parse(req, async (err, fields, files) => {
+    if (err) {
+      next(err);
+      return;
+    }
+    const od = JSON.parse(fs.readFileSync(files.od.path, 'utf8'))
+    const zoneamento = JSON.parse(fs.readFileSync(files.zoneamento.path, 'utf8'))
     try {
-      cidade = new City({name: req.body.city})
+      cidade = new City({ 
+        name: fields.name,
+        od: od,
+        zoneamento: zoneamento
+      })
+  
       const newCity = await cidade.save()
     } catch (err) {
       console.log(err);
@@ -45,10 +68,12 @@ router.post('/',  checkAuthenticated, checkIsAdmin, async (req, res) => {
       });
     }
     res.redirect(`cities/`)
+  });
 })
 
 
 router.get('/:id/edit', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   try {
     const city = await City.findById(req.params.id)
     res.render('cities/edit', { city: city })
@@ -57,37 +82,59 @@ router.get('/:id/edit', checkAuthenticated, checkIsAdmin, async (req, res) => {
   }
 })
 
-router.put('/:id/', checkAuthenticated, checkIsAdmin, async (req, res) => {
+router.put('/:id/', checkAuthenticated, checkIsAdmin, (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let city
-  try {
-    city = await City.findById(req.params.id)
-    city.name = req.body.name
-    await city.save()
-    res.redirect(`/cities`)
-  } catch (err) {
-    if (city == null) {
-      res.redirect('/')
-    } else {
-      res.render('cities/edit', {
-        city: city,
-        errorMessage: 'Erro ao atualizar cidade'
-      })
+  const form = formidable({multiples:false})
+  form.parse(req, async (err, fields, files) => {
+    if (err) {
+      console.log(err)
+      next(err);
+      return;
     }
-    console.log(err);
-  }
+    let od = null
+    let zoneamento = null
+    // console.log(req.body)
+    if (files) {
+      od = JSON.parse(fs.readFileSync(files.od.path, 'utf8'))
+      zoneamento = JSON.parse(fs.readFileSync(files.zoneamento.path, 'utf8'))
+      // console.log(files.zoneamento.path)
+      // console.log(files.od.path)
+    } 
+    try {
+      city = await City.findById(req.params.id)
+      city.name = fields.name
+      if (od) { city.od = od }
+      if (zoneamento) { city.zoneamento = zoneamento }
+      await city.save()
+      res.redirect(`/cities`)
+    } catch (err) {
+      if (city == null) {
+        res.redirect('/')
+      } else {
+        res.render('cities/edit', {
+          city: city,
+          errorMessage: 'Erro ao atualizar cidade'
+        })
+      }
+      console.log(err);
+    }
+  });
 })
 
 router.delete('/:id', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let city
   try {
     city = await City.findById(req.params.id)
     await city.remove()
     res.redirect('/cities')
-  } catch {
+  } catch (err) {
     if (city == null) {
       res.redirect('/')
     } else {
-      res.redirect(`/cities`)
+      // res.locals.errorMessage = err.message
+      res.redirect(`/cities?error=${err.message}`)
     }
   }
 })
@@ -116,6 +163,14 @@ function checkIsAdmin(req, res, next) {
   } else {
     res.redirect('/login')
   };
+}
+
+function checkError(req) {
+  if (req.query.error) {
+    return req.query.error
+  } else {
+    return null
+  }
 }
 
 module.exports = router

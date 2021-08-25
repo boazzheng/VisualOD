@@ -4,70 +4,69 @@ const User = require('../models/user')
 const City = require('../models/city')
 const bcrypt = require('bcrypt');
 
+
 // All Users Route
 router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let searchOptions = {}
   if (req.query.search != null && req.query.search !== '') {
     searchOptions = {
-      $or: [
-        {
-          name: new RegExp(req.query.search, 'i')
-        },
-        {
-          city: new RegExp(req.query.search, 'i')
-        }
-      ]
+      name: new RegExp(req.query.search, 'i')
     }
   };
   try {
-    const users = await User.find(searchOptions).sort({createdAt: -1}).populate('city')
+    const users = await User.find(searchOptions).sort({ createdAt: -1 }).populate('city')
     res.render('users/index', {
       users: users,
       search: req.query.search,
     })
-  } catch {
+  } catch (err) {
+    console.log(err)
     res.redirect('/')
   }
 })
 
 // Display New User Route
 router.get('/new', checkAuthenticated, checkIsAdmin, (req, res) => {
+  res.locals.errorMessage = checkError(req);
   res.render('users/new', { user: new User() })
 })
 
 // Create User Route
-router.post('/',  checkAuthenticated, checkIsAdmin, async (req, res) => {
-  let cidade = await City.findOne({name: req.body.city})
+router.post('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
+  let cidade = await City.findOne({ name: req.body.city })
   // console.log(cidade)
-    if (!cidade) {
-      try {
-        cidade = new City({name: req.body.city})
-        const newCity = await cidade.save()
-      } catch (err) {
-        console.log(err);
-      }
-    } 
+  if (!cidade) {
     try {
-      const hashedPassword = await bcrypt.hash(req.body.password, 10);
-      const user = new User({
-        name: req.body.name,
-        email: req.body.email,
-        city: cidade._id,
-        password: hashedPassword
-      })
-      const newUser = await user.save()
-      res.redirect(`users/`)
+      cidade = new City({ name: req.body.city })
+      const newCity = await cidade.save()
     } catch (err) {
       console.log(err);
-      return res.render('users/new', {
-        user: user,
-        errorMessage: 'Error creating User'
-      });
     }
+  }
+  try {
+    const hashedPassword = await bcrypt.hash(req.body.password, 10);
+    const user = new User({
+      name: req.body.name,
+      email: req.body.email,
+      city: cidade._id,
+      password: hashedPassword
+    })
+    const newUser = await user.save()
+    res.redirect(`users/`)
+  } catch (err) {
+    console.log(err);
+    return res.render('users/new', {
+      user: user,
+      errorMessage: 'Error creating User'
+    });
+  }
 })
 
 
 router.get('/:id/edit', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   try {
     const user = await User.findById(req.params.id).populate('city')
     // console.log(user)
@@ -78,15 +77,16 @@ router.get('/:id/edit', checkAuthenticated, checkIsAdmin, async (req, res) => {
 })
 
 router.put('/:id/', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let user
   try {
     user = await User.findById(req.params.id)
     user.name = req.body.name
     user.email = req.body.email
-    let cidade = await City.findOne({name: req.body.city})
+    let cidade = await City.findOne({ name: req.body.city })
     if (!cidade) {
       try {
-        cidade = new City({name: req.body.city})
+        cidade = new City({ name: req.body.city })
         const newCity = await cidade.save()
       } catch (err) {
         console.log(err);
@@ -114,6 +114,7 @@ router.put('/:id/', checkAuthenticated, checkIsAdmin, async (req, res) => {
 })
 
 router.delete('/:id', checkAuthenticated, checkIsAdmin, async (req, res) => {
+  res.locals.errorMessage = checkError(req);
   let user
   try {
     user = await User.findById(req.params.id)
@@ -152,6 +153,14 @@ function checkIsAdmin(req, res, next) {
   } else {
     res.redirect('/login')
   };
+}
+
+function checkError(req) {
+  if (req.query.error) {
+    return req.query.error
+  } else {
+    return null
+  }
 }
 
 module.exports = router

@@ -7,23 +7,24 @@ const router = express.Router();
 
 initializePassport(
     passport,
-    email => User.findOne({email}),
-    id => User.findOne({id})
+    email => User.findOne({ email }),
+    id => User.findOne({ id })
 );
 
 router.get('/', checkAuthenticated, async (req, res) => {
+    res.locals.errorMessage = checkError(req);
     try {
         const currentUserID = req.session.passport.user;
-        currentUser =  await User.findById(currentUserID).populate('city');
+        currentUser = await User.findById(currentUserID).populate('city');
         if (currentUser.isAdmin) {
-            return res.render('index/index.ejs', { user: currentUser , layout: 'layouts/admin-layout'});
+            return res.render('index/index.ejs', { user: currentUser, layout: 'layouts/admin-layout' });
         } else {
-            return res.render('index/index.ejs', { user: currentUser , layout: 'layouts/user-layout'});
+            return res.render('index/index.ejs', { user: currentUser, layout: 'layouts/user-layout' });
         }
-            
-      } catch {
+
+    } catch {
         res.redirect('/login')
-      }
+    }
 });
 
 router.get('/login', checkNotAuthenticated, (req, res) => {
@@ -69,7 +70,7 @@ function checkAuthenticated(req, res, next) {
         return next();
     }
     res.redirect('/login');
-  };
+};
 
 function checkNotAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
@@ -77,5 +78,13 @@ function checkNotAuthenticated(req, res, next) {
     }
     next();
 };
+
+function checkError(req) {
+    if (req.query.error) {
+        return req.query.error
+    } else {
+        return null
+    }
+}
 
 module.exports = router;

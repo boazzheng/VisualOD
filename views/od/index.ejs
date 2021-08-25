@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz OD</title>
+    <!-- bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <!-- leaflet -->
+    <link rel="stylesheet" href="/visualod/css/leaflet.css">
+    <script src="/visualod/js/leaflet.js"></script>
+    <!-- Load animation tweening lib requirement for CanvasFlowMapLayer -->
+    <script src="/visualod/js/tween.umd.js"></script>
+    <!-- then load CanvasFlowMapLayer -->
+    <script src="/visualod/js/CanvasFlowmapLayer.js"></script>
+    <!-- dados externos -->
+    <!-- <script src="/visualod/data/ODOut2019.js"></script>
+    <script src="/visualod/data/Zoneamento.geojson"></script> -->
+    <!-- personalizacao -->
+    <link href="/visualod/css/styles.css" rel="stylesheet">
+    <script src="/visualod/js/script.js"></script>
+    
+</head>
+ 
+<body>
+    <img src="/img/LogoTranzum.png" id="logo" alt="Logo da Tranzum">
+
+    <!-- inicio menu lateral colapsavel (offcanvas) -->
+    <button class="btn-offcanvas" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" 
+        aria-controls="offcanvasExample">
+        <i class="bi-list"></i>
+    </button>
+
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            
+            <h5 class="offcanvas-title" id="offcanvasLabel">
+                 Matriz OD 
+            </h5>
+            <button type="button" class="btn-close text-reset" id="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <!-- inicio do corpo (accordion)  -->
+        <div class="offcanvas-body">
+            <!-- selecao de periodo -->
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi-calendar cor-tema"></i></span>
+                <input type="date" class="form-control data-periodo" id="data-inicio" aria-label="Data Início">
+                <input type="date" class="form-control data-periodo" id="data-fim" aria-label="Data Fim">
+                <!-- selecao dia tipo -->
+                <input type="checkbox" class="btn-check ck-dia-tipo" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary btn-dia-tipo  btn-filtro" for="btncheck1" title="Dia útil">DU</label>
+                <input type="checkbox" class="btn-check ck-dia-tipo" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary btn-dia-tipo btn-filtro" for="btncheck2" title="Fim de semana">FDS</label>
+            </div>
+            <div class="input-group">
+                <!-- selecao da hora -->
+                <span class="input-group-text"><i class="bi-clock cor-tema"></i></span>
+                <input type="time" class="form-control hora-periodo" id="hora-inicio" aria-label="Hora Início">
+                <input type="time" class="form-control hora-periodo" id="hora-fim" aria-label="Hora Fim">
+                <!-- selecao hora pico -->
+                <input type="checkbox" class="btn-check ck-hora-pico" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary btn-hora-pico btn-filtro" for="btncheck3" title="Hora pico">HP</label>
+                <input type="checkbox" class="btn-check ck-hora-pico" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary btn-hora-pico btn-filtro" for="btncheck4" title="Entre pico">EP</label>
+            </div>
+            
+            <!-- inicio da lista do accordion -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button btn-acc" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="bi-pin-map-fill icones-oc" ></i>ORIGENS
+                        </button>
+                        <button type="button" class="btn btn-primary btn-sm btn-selecao-orig btn-filtro">Todas</button>
+                        <button type="button" class="btn btn-secundary btn-sm btn-limpar-orig btn-filtro">Limpar</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne">
+                        <div class="accordion-body">
+                            <div class="row", id="row-origens">
+                                <!-- inserir origens por js -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button btn-acc" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            <i class="bi-geo-alt-fill icones-oc"></i>DESTINOS
+                        </button>
+                        <button type="button" class="btn btn-primary btn-sm btn-selecao-dest btn-filtro">Todos</button>
+                        <button type="button" class="btn btn-secundary btn-sm btn-limpar-dest btn-filtro">Limpar</button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="headingTwo">
+                        <div class="accordion-body">
+                            <div class="row", id="row-destinos">
+                                <!-- inserir destinos por js -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed btn-acc" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="bi-wallet icones-oc"></i>PAGAMENTOS
+                        </button>
+                        <button type="button" class="btn btn-primary btn-sm btn-selecao-tipo btn-filtro">Todos</button>
+                        <button type="button" class="btn btn-secundary btn-sm btn-limpar-tipo btn-filtro">Limpar</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                        <div class="accordion-body">
+                            <div class="row", id="row-tipos-pagamento">
+                                <!-- inserir tipos de pagamentos por js -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed btn-acc" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="bi-bezier2 icones-oc"></i>FLUXOS
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                        <div class="accordion-body">
+                            <div class="limitar-tabela">
+                                <table class="table table-hover fluxos-table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Origem</th>
+                                        <th scope="col">Destino</th>
+                                        <th scope="col">Passageiros</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody class="linha-tb-fluxos">
+                                        <!-- inserir linhas dos fluxos por js -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fim da lista do accordion -->
+        </div>
+        <!-- fim do corpo (accordion)  -->
+    </div>
+    <!-- fim menu lateral colapsavel (offcanvas) -->
+
+    <!-- inicio mapa -->
+    <div id="mapa"></div>
+    <!-- fim mapa -->
+</body>
+
+</html>
