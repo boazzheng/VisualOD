@@ -1,6 +1,3 @@
-let EstadoOrigens
-let EstadoDestinos
-
 document.addEventListener("DOMContentLoaded", async function(event) {
     // inicio variaveis globais ---------------------------------------------------------------  
     const nome_cidade = window.location.pathname.split('/').pop()
@@ -9,25 +6,22 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     const coordViewJson = await (await fetch(`/OD/coord/${nome_cidade}`)).json()
     const coordView = [coordViewJson[0], coordViewJson[1]]
     const zonas = await (await fetch(`/OD/origensedestinos/${nome_cidade}`)).json()
-     EstadoOrigens = [...new Set(zonas.map(e => e._id))]
+    const EstadoOrigens = [...new Set(zonas.map(e => e._id))]
         .sort((a,b)=>a-b)
         .map(e => ({ origem: e, isSelected: false }));
-     EstadoDestinos = [...new Set(zonas.map(e => e._id))]
+    const EstadoDestinos = [...new Set(zonas.map(e => e._id))]
         .sort((a,b)=>a-b)
         .map(e => ({ destino: e, isSelected: false }));
-    const EstadoTipoPagamentos = [...new Set(od.map(e => e._id.TIPO_CARTAO))]
-        .map(e => ({tiposCartao: e, isSelected: true }));
-    const EstadoDatas = [...new Set(od.map(e => e._id.DATA_ORIGEM))]
-        .sort((a,b)=>a>b)
-        .map(e => ({ data: e, isSelected: true }));
+    const EstadoTipoPagamentos = [...await (await fetch(`/OD/tipospagamentos/${nome_cidade}`)).json()]
+        .map(e => ({tiposCartao: e._id, isSelected: true }));
+    const EstadoDatas = [...await (await fetch(`/OD/periodo/${nome_cidade}`)).json()]
+        .map(e => ({data: e._id, isSelected: false}))
+    const picoDU = [...await (await fetch(`/OD/picoDU/${nome_cidade}`)).json()]
+    const picoFDS = [...await (await fetch(`/OD/picoFDS/${nome_cidade}`)).json()]
     const EstadoDiaTipo = [{diaTipo: "DU", isSelected: false}, {diaTipo: "FDS", isSelected: false}];
+    const EstadoHoraPico = [{horapico: "HP", isSelected: false}, {horapico: "EP", isSelected: false}];
+    const intervalo0 = ["00:00", "23:59"];
     const intervalo = ["00:00", "23:59"];
-    const EstadoHoraPico = [
-        {picoDU: ["06:00", "07:00"], isSelected: false},
-        {epDU: ["06:00", "07:00"], isSelected: false},
-        {picoFDS: ["07:00", "08:00"], isSelected: false},
-        {epFDS: ["07:00", "08:00"], isSelected: false},
-    ];
 
     var ODFlow = {
         "type": "Feature",
@@ -64,7 +58,8 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     function calcFaixasPassDia () {
         nFluxos = EstadoOrigens.length*EstadoDestinos.length;
         qtddPass = od.map(e => e.QUANTIDADE_PASSAGEIROS).reduce((a,b) => a+b,0);
-        mediaDiaPass = Math.round(qtddPass/nFluxos);
+        // mediaDiaPass = Math.round(qtddPass/nFluxos);
+        mediaDiaPass = 100;
         return [
             {   
                 min: 0, 
@@ -142,12 +137,12 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     // pre configurando o date picker
     document.querySelectorAll(".data-periodo").forEach(e => {
         if (e.id ==="data-inicio") {
-            e.value = EstadoDatas[0]?.data;
+            e.value = EstadoDatas[0]?.data
         } else {
             e.value = EstadoDatas[EstadoDatas.length - 1]?.data;
         };
-        e.min = EstadoDatas[0]?.data;
-        e.max = EstadoDatas[EstadoDatas.length-1]?.data;
+        e.min = EstadoDatas[0]?.data
+        e.max = EstadoDatas[EstadoDatas.length-1]?.data
     });
     // pre configurando o time picker
     document.querySelectorAll(".hora-periodo").forEach(e => {
@@ -271,7 +266,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                     labelFDS.classList.remove("btn-zona-selected");
                     EstadoDiaTipo[1].isSelected = false;
                 };
-                atualizarSeletorIntervalo();
+                // await atualizarSeletorIntervalo();
             };
         } else if (target.classList.contains ("btn-selecao-orig")) {
             EstadoOrigens.forEach(e => e.isSelected = true);
@@ -345,11 +340,11 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                         EstadoHoraPico[0].isSelected = !EstadoHoraPico[0].isSelected;
                     } else if (labelFDS.classList.contains("btn-zona-selected")) {
                         EstadoHoraPico.forEach(e => e.isSelected = false);
-                        EstadoHoraPico[2].isSelected = !EstadoHoraPico[2].isSelected;
+                        EstadoHoraPico[0].isSelected = !EstadoHoraPico[2].isSelected;
                     // se nenhum esta selecionado
                     } else {
                         // ativa o btn DU
-                        labelDU.click();
+                        // await labelDU.click();
                         // ativa so a hora pico DU
                         EstadoHoraPico.forEach(e => e.isSelected = false);
                         EstadoHoraPico[0].isSelected = true;
@@ -360,12 +355,10 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                         checkEP.checked = false;
                         labelEP.classList.remove("btn-zona-selected");
                         EstadoHoraPico[1].isSelected = false;
-                        EstadoHoraPico[3].isSelected = false;
                     };
                 // se HP estava selecionado
                 } else {
                     EstadoHoraPico[0].isSelected = false;
-                    EstadoHoraPico[2].isSelected = false;
                 };
                 
             } else if (target.innerText === "EP") {
@@ -385,7 +378,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                         
                     } else if (labelFDS.classList.contains("btn-zona-selected")) {
                         EstadoHoraPico.forEach(e => e.isSelected = false);
-                        EstadoHoraPico[3].isSelected = !EstadoHoraPico[3].isSelected;
+                        EstadoHoraPico[1].isSelected = !EstadoHoraPico[1].isSelected;
                         
                     // se nenhum esta selecionado
                     } else {
@@ -398,24 +391,22 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                 // se EP estava selecionado
                 } else {
                     EstadoHoraPico[1].isSelected = false;
-                    EstadoHoraPico[3].isSelected = false;
                 };
                 // desativa HP se estiver ativo
                 if (labelHP.classList.contains("btn-zona-selected")) {
                     checkHP.checked = false;
                     labelHP.classList.remove("btn-zona-selected");
                     EstadoHoraPico[0].isSelected = false;
-                    EstadoHoraPico[2].isSelected = false;
                 };
             };
             // mudar o visual dos botoes de dia tipo no click (mesma cara dos botoes de zona)
             target.classList.toggle ("btn-zona-selected");
         };
         // recalcula a OD
+        atualizarSeletorIntervalo();
         await buscarDadosOD();
         // plotar fluxos
         plotarFluxos();
-        atualizarSeletorIntervalo();
         descreverFluxos();
     };
     var btnsOrig = document.querySelectorAll (".btn-filtro");
@@ -425,7 +416,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     // fim evento clique de filtro (origens, destinos, tipos pagamentos, DU/FDS, Todas/Limpar) ----------
 
     // inicio evento selecao de periodo ---------------------------------------------------
-    function selecionarPeriodo () {
+    async function selecionarPeriodo () {
         var inicioSelecionado;
         var fimSelecionado;
         document.querySelectorAll(".data-periodo").forEach(e => {
@@ -452,7 +443,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
             }
         })
         // recalcula a OD
-        buscarDadosOD();
+        await buscarDadosOD();
         // plotar fluxos
         plotarFluxos();
         descreverFluxos();
@@ -464,7 +455,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     // fim evento selecao de periodo ------------------------------------------------------
 
     // inicio selecao de intervalo --------------------------------------------------------
-    function selecionarIntervalo () {
+    async function selecionarIntervalo () {
         var inicioSelecionado;
         var fimSelecionado;
         document.querySelectorAll(".hora-periodo").forEach(e => {
@@ -473,16 +464,16 @@ document.addEventListener("DOMContentLoaded", async function(event) {
                     inicioSelecionado = e.value;
                     intervalo[0] = e.value;
                 } else {
-                    inicioSelecionado = intervalo[0];
-                    e.value = intervalo[0];
+                    inicioSelecionado = intervalo0[0];
+                    e.value = intervalo0[0];
                 };
             } else {
                 if (e.value) {
                     fimSelecionado = e.value;
                     intervalo[1] = e.value;
                 } else {
-                    fimSelecionado = intervalo[1];
-                    e.value = intervalo[1];
+                    fimSelecionado = intervalo0[1];
+                    e.value = intervalo0[1];
                 };
             };
         });
@@ -493,31 +484,32 @@ document.addEventListener("DOMContentLoaded", async function(event) {
             labelEP.click();
         };
         // recalcula a OD
-        buscarDadosOD();
+        atualizarSeletorIntervalo();
+        await buscarDadosOD();
         // plotar fluxos
         plotarFluxos();
-        atualizarSeletorIntervalo();
         descreverFluxos();
     };
     function atualizarSeletorIntervalo () {
         if (labelDU.classList.contains("btn-zona-selected") && labelHP.classList.contains("btn-zona-selected")) {
-            document.getElementById("hora-inicio").value = EstadoHoraPico[0].picoDU[0];
-            document.getElementById("hora-fim").value = EstadoHoraPico[0].picoDU[1];
+            document.getElementById("hora-inicio").value = picoDU[0];
+            document.getElementById("hora-fim").value = picoDU[1];
         } else if (labelDU.classList.contains("btn-zona-selected") && labelEP.classList.contains("btn-zona-selected")) {
-            document.getElementById("hora-inicio").value = EstadoHoraPico[1].epDU[0];
-            document.getElementById("hora-fim").value = EstadoHoraPico[1].epDU[1];
+            document.getElementById("hora-inicio").value = picoDU[0];
+            document.getElementById("hora-fim").value = picoDU[1];
         } else if (labelFDS.classList.contains("btn-zona-selected") && labelHP.classList.contains("btn-zona-selected")) {
-            document.getElementById("hora-inicio").value = EstadoHoraPico[2].picoFDS[0];
-            document.getElementById("hora-fim").value = EstadoHoraPico[2].picoFDS[1];
+            document.getElementById("hora-inicio").value = picoFDS[0];
+            document.getElementById("hora-fim").value = picoFDS[1];
         } else if (labelFDS.classList.contains("btn-zona-selected") && labelEP.classList.contains("btn-zona-selected")) {
-            document.getElementById("hora-inicio").value = EstadoHoraPico[3].epFDS[0];
-            document.getElementById("hora-fim").value = EstadoHoraPico[3].epFDS[1];
+            document.getElementById("hora-inicio").value = picoFDS[0];
+            document.getElementById("hora-fim").value = picoFDS[1];
         } else {
             document.getElementById("hora-inicio").value = intervalo[0];
             document.getElementById("hora-fim").value = intervalo[1];
         };
         
     };
+
     var inputHorario = document.querySelectorAll (".hora-periodo");
     for(let i=0 ; i < inputDatas.length ; i++) {
         inputHorario[i].addEventListener ("change", () => selecionarIntervalo());
@@ -527,76 +519,42 @@ document.addEventListener("DOMContentLoaded", async function(event) {
     // inicio atualizar a url de filtro --------------------------------------------------------
     async function buscarDadosOD (){
         
-        var origensSelecionadas = 
+        const origensSelecionadas = 
             EstadoOrigens
             .filter(e => e.isSelected===true)
             .map(e => e.origem)
             .sort((a,b)=>a-b);
-        var destinosSelecionados = 
+        const destinosSelecionados = 
             EstadoDestinos
             .filter(e => e.isSelected===true)
             .map(e => e.destino)
             .sort((a,b)=>a-b);
-        var pagamentosSelecionados = 
+        const pagamentosSelecionados = 
             EstadoTipoPagamentos
             .filter(e => e.isSelected===true)
             .map(e => e.tiposCartao)
             .sort((a,b)=>a-b);
-        var datasSelecionadas = 
+        const datasSelecionadas = 
             EstadoDatas
             .filter(e => e.isSelected===true)
             .map(e => e.data)
             .sort((a,b)=>a>b);
-        var diasTiposSelecionados = 
+        const diasTiposSelecionados = 
             EstadoDiaTipo
             .filter(e => e.isSelected===true)
             .map(e => e.diaTipo)
-
-        if (diasTiposSelecionados.length === 0){
-            diasTiposSelecionados = EstadoDiaTipo.map(e => e.diaTipo)
-        };
+        const horaPicoSelecionada = 
+            EstadoHoraPico
+            .filter(e => e.isSelected===true)
+            .map(e => e.horapico)
+        const intervaloSelecionado = intervalo
 
         const queryString = encodeURI(
-            `?origens=${origensSelecionadas.join()}&destinos=${destinosSelecionados.join()}&pagamentos=${pagamentosSelecionados.join()}&datas=${datasSelecionadas.join()}&dt=${diasTiposSelecionados.join()}`
+            `?origens=${origensSelecionadas.join()}&destinos=${destinosSelecionados.join()}&pagamentos=${pagamentosSelecionados.join()}&datas=${datasSelecionadas.join()}&dt=${diasTiposSelecionados.join()}&intervalo=${intervaloSelecionado.join()}&pico=${horaPicoSelecionada.join()}`
         )
         
         od = await (await fetch(`/OD/dados/${nome_cidade}${queryString}`)).json()
         
-        function ehDaFaixaHoraria (horaOD) {
-            // se for hora pico
-            if (EstadoHoraPico[0].isSelected === true || EstadoHoraPico[2].isSelected === true) {
-                var intervaloPico = EstadoHoraPico.filter(e => e.isSelected === true)[0];
-                if (intervaloPico.hasOwnProperty('picoDU')) {
-                    intervaloPico = intervaloPico.picoDU;
-                } else {
-                    intervaloPico = intervaloPico.picoFDS;
-                };
-                if (horaOD > intervaloPico[0] && horaOD < intervaloPico[1]) {
-                    return true;
-                } else {
-                    return false;
-                };
-            // se for entre pico
-            } else if (EstadoHoraPico[1].isSelected === true || EstadoHoraPico[3].isSelected === true) {
-                var intervaloEP = EstadoHoraPico.filter(e => e.isSelected === true)[0];
-                if (intervaloEP.hasOwnProperty('epDU')) {
-                    intervaloEP = intervaloEP.epDU;
-                } else {
-                    intervaloEP = intervaloEP.epFDS;
-                };
-                if (horaOD < intervaloEP[0] || horaOD > intervaloEP[1]) {
-                    return true;
-                } else {
-                    return false;
-                };
-            } else {
-                if (horario>intervalo[0] && horario<intervalo[1]) {
-                    return true;
-                } else {
-                    return false;
-                };
-            };
-        };
     };
     // fim atualizar a url de filtro -----------------------------------------------------------
 

@@ -10,6 +10,12 @@ const citySchema = new mongoose.Schema({
   },
   zoneamento: {
     type: Object
+  },
+  picoDU: {
+    type: Array
+  },
+  picoFDS: {
+    type: Array
   }
 })
 
