@@ -27,7 +27,34 @@
 </head>
  
 <body>
-    <img src="/img/LogoTranzum.png" id="logo" alt="Logo da Tranzum">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/img/LogoTranzum.png" id="logo" alt="Logo da Tranzum"></a>
+            
+            <a class="nav-item nav-link active ms-auto" aria-current="page" href="#">Matriz OD</a>
+            <a class="nav-item nav-link" href="#">Indicadores</a>
+            <% if (user.isAdmin) { %>
+                <div class="dropdown ms-auto">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <%= user.city.name %> 
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <% cities.forEach(city=> { %>
+                            <li><a class="dropdown-item" href="#">
+                                <%= city.name %>
+                            </a></li>
+                        <% }) %>
+                    </ul>
+                </div>
+            <% } else { %>
+                <span class="nome-cidade ms-auto"><%= user.city.name %></span>
+            <% } %> 
+        </div>
+    </nav>
+    
+
+    <!-- <a href="/"><img src="/img/LogoTranzum.png" id="logo" alt="Logo da Tranzum"></a> -->
 
     <!-- inicio menu lateral colapsavel (offcanvas) -->
     <button class="btn-offcanvas" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" 
@@ -39,7 +66,7 @@
         <div class="offcanvas-header">
             
             <h5 class="offcanvas-title" id="offcanvasLabel">
-                 Matriz OD 
+                 <!-- Matriz OD  -->
             </h5>
             <button type="button" class="btn-close text-reset" id="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>

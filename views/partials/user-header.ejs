@@ -1,12 +1,16 @@
 <header>
-    <nav class="header-nav">
-      <a class="header-title" href="/">AppTeste</a>
-      <ul>
-        <li><a href="/OD/<%= user.city.name %> ">Matriz OD</a></li>
-        <li><a href="/indicadores">Indicadores</a></li>
-      </ul>
-      <form action="/logout?_method=DELETE" method="POST">
-        <button type="submit">Log Out</button>
-      </form>
-    </nav>
-  </header>
+  <nav class="header-nav">
+    <a class="header-logo" href="/">
+      <img src="/img/LogoTranzum.png" alt="Logo da Tranzum">
+    </a>
+    <ul>
+      <li><a class="nav-item-user" href="/OD/<%= user.city.name %> ">Matriz OD</a></li>
+      <li><a class="nav-item-user" href="/indicadores">Indicadores</a></li>
+    </ul>
+    <form action="/logout?_method=DELETE" method="POST">
+      <button class="logout-button btn-secondary" type="submit">
+        <i class="bi-box-arrow-right"></i>
+      </button>
+    </form>
+  </nav>
+</header>

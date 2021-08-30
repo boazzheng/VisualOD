@@ -6,18 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link id="main-css" rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link href="/css/bootstrap-icons.css" rel="stylesheet">
         <script src="/js/bootstrap.min.js"></script>
         
-        <title>App</title>
+        <title>AppTz</title>
     </head>
     <body>
         <script>0</script> <!-- fix firefox bug -->
-        <div class="container">
-            <%- include('../partials/admin-header.ejs') %>
-            <div class="inner-container">
-            <%- include('../partials/errorMessage.ejs') %>
-            <%- body %>
+        <div class="header-background-adm">
+            <div class="container">
+                <%- include('../partials/admin-header.ejs') %>
             </div>
         </div>
+        <div class="container">
+            <%- include('../partials/errorMessage.ejs') %>
+        </div>
+        <%- body %>
     </body>
 </html>

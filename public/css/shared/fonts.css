@@ -65,6 +65,6 @@
 	font-family: 'Roboto Medium';
 	src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
 		url('/fonts/Roboto-Medium.ttf') format('ttf');
-	font-weight: 500;
+	font-weight: 200;
 	font-style: normal;
 }

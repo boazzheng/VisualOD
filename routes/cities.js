@@ -94,17 +94,13 @@ router.put('/:id/', checkAuthenticated, checkIsAdmin, (req, res) => {
     }
     let od = null
     let zoneamento = null
-    // console.log(req.body)
     if (files) {
-      od = JSON.parse(fs.readFileSync(files.od.path, 'utf8'))
+      // console.log(files)
       zoneamento = JSON.parse(fs.readFileSync(files.zoneamento.path, 'utf8'))
-      // console.log(files.zoneamento.path)
-      // console.log(files.od.path)
     } 
     try {
       city = await City.findById(req.params.id)
       city.name = fields.name
-      if (od) { city.od = od }
       if (zoneamento) { city.zoneamento = zoneamento }
       await city.save()
       res.redirect(`/cities`)

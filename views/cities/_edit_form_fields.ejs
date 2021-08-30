@@ -1,10 +1,13 @@
 <div class="form-row">
-    <div class="form-item">
-      <label>Nome da cidade</label>
-      <input type="text" name="name" value="<%= city.name %>" required>
+  <label for="nome-cidade">Nome da cidade</label>
+    <div class="input-group mb-3">
+      <span class="input-group-text">
+        <i class="bi-map-fill"></i>
+      </span>
+      <input type="text" name="name" value="<%= city.name %>" required class="form-control" id="nome-cidade">
     </div>
-    <div class="form-item">
-      <label>Zoneamento da cidade</label>
-      <input type="file" name="zoneamento">
+    <label for="zoneamento-cidade">Arquivo de Zoneamento da cidade</label>
+    <div class="input-group mb-3">
+      <input type="file" name="zoneamento" class="form-control" id="zoneamento-cidade">
     </div>
   </div>

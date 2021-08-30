@@ -1,8 +1,8 @@
 :root {
-    --color-base-hue: 50;
-    --color-danger-hue-offset: 180;
-    --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
-    --color-background-dark: hsl(var(--color-base-hue), 100%, 28%);
-    --color-background-light: hsl(var(--color-base-hue), 100%, 86%);
-    --color-text-light: hsl(var(--color-base-hue), 100%, 87%);
+  /* ADM */
+  --color-background-dark-adm: rgba(146, 81, 43, 0.842);
+  --color-background-light-adm: rgba(146, 81, 43, 0.432);
+  /* USER */
+  --color-background-header-user: rgba(85, 85, 85, 0.505);
+  --color-background-body-user: rgba(173, 173, 173, 0.305);
   }

@@ -1,8 +1,10 @@
-<h2 class="page-header">Editar Cidade</h2>
-<form action="/cities/<%= city.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
-  <%- include('_edit_form_fields') %>
-  <div class="form-row form-row-end btn-row">
-    <a class="btn btn-danger" href="/cities/">Cancel</a>
-    <button class="btn btn-primary" type="submit">Update</button>
-  </div>
-</form>
+<div class="container admin-body-container">
+  <h2 class="page-header">Editar Cidade</h2>
+  <form action="/cities/<%= city.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+    <%- include('_edit_form_fields') %>
+    <div class="form-row form-row-end btn-row">
+      <a class="btn btn-danger" href="/cities/">Cancel</a>
+      <button class="btn btn-primary" type="submit">Update</button>
+    </div>
+  </form>
+</div>

@@ -1,12 +1,26 @@
 <div class="form-row">
-    <div class="form-item">
-      <label>Nome do usuário</label>
-      <input type="text" name="name" value="<%= user.name %>" required>
-      <label>Email</label>
-      <input type="email" name="email" value="<%= user.email %>" required>
-      <label>Cidade</label>
-      <input type="text" name="city" value="<%= user.city.name %>" required>
-      <label>Nova Senha</label>
-      <input type="password" name="password" value="">
-    </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">
+      <i class="bi-person-fill"></i>
+    </span>
+    <input type="text" name="name" value="<%= user.name %>" required class="form-control" aria-label="Username">
   </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">
+      <i class="bi-map-fill"></i>
+    </span>
+    <input type="text" name="city" value="<%= user.city.name %>" required class="form-control" aria-label="City">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">
+      <i class="bi-envelope-fill"></i>
+    </span>
+    <input type="email" name="email" value="<%= user.email %>" required class="form-control" aria-label="Email">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">
+      <i class="bi-shield-lock-fill"></i>
+    </span>
+    <input type="password" name="password" value="" required class="form-control" aria-label="Password">
+  </div>
+</div>

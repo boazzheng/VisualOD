@@ -8,34 +8,52 @@
     }
   } 
 </script>
+<div class="container admin-body-container">
+  <form action="/cities" method="GET">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" name="search" value="<%= search %>" placeholder="Buscar cidade" aria-label="Buscar cidade">
+      <span class="input-group-text" id="search-icon-container">
+        <button class="btn btn-link" id="btn-search" type="submit">
+          <i class="bi-search"></i>
+        </button>
+      </span>
+    </div>
+  </form>
 
-<h2 class="page-header">Buscar Cidade</h2>
-<form action="/cities" method="GET">
-  <div class="form-row">
-    <div class="form-item">
-      <label>Buscar</label>
-      <input type="text" name="search" value="<%= search %>">
+  <br>
+
+  <div class="row">
+    <div class="city-title col-md-12">
+      <h6>Cidade</h6>
     </div>
   </div>
-  <div class="form-row form-row-end">
-    <button class="btn btn-primary" type="submit">Buscar</button>
-  </div>
-</form>
-<br>
-<% cities.forEach(city=> { %>
-  <div class="user-row">
-    <div class="user">
-      <%= city.name %>
-    </div>
-    
-    <div class="btn-row">
-      <a class="btn btn-primary" href="/cities/<%= city.id %>/edit">Editar</a>
-      <form action="/cities/<%= city.id %>?_method=DELETE" method="POST" onsubmit="return ConfirmDelete('/delete/<%= city.id %>')">
-        <div class="form-item">
-          <button class="btn btn-danger" type="submit">Deletar</button>
+  <hr class="edited">
+
+  <% cities.forEach(city=> { %>
+    <div class="row">
+      <div class="user col-md-10">
+        <div class="user">
+          <%= city.name %>
         </div>
-      </form>
-
+      </div>
+      <div class="user col-md-2">
+        <div class="btn-row">
+          <form action="/cities/<%= city.id %>/edit" method="GET">
+            <div class="form-item">
+              <button class="btn-edit btn-primary" type="submit">
+                <i class="bi-pencil-square"></i>
+              </button>
+            </div>
+          </form>          
+          <form action="/cities/<%= city.id %>?_method=DELETE" method="POST" onsubmit="return ConfirmDelete('/delete/<%= city.id %>')">
+            <div class="form-item">
+              <button class="btn-delete btn-danger" type="submit">
+                <i class="bi-trash-fill"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>  
     </div>
-  </div>
   <% }) %>
+</div>

@@ -6,8 +6,13 @@ const OD = require('../models/od')
 
 router.get('/:city', checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
+    const currentUserID = req.session.passport.user;
+    currentUser = await User.findById(currentUserID).populate('city');
+    const cities = await City.find({}).sort({ createdAt: -1 })
     res.render('od/index', {
+        user: currentUser,
         layout: false,
+        cities: cities
     })
 })
 
@@ -15,7 +20,7 @@ router.get('/:city', checkUserCity, async (req, res) => {
 
 // data endpoints ----------------------------------------------------------------------------
 
-router.get('/origensedestinos/:city', checkUserCity, async (req, res) => {
+router.get('/origensedestinos/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     pipeline = [
@@ -34,7 +39,7 @@ router.get('/origensedestinos/:city', checkUserCity, async (req, res) => {
     res.json(origens_e_destinos)
 })
 
-router.get('/tipospagamentos/:city', checkUserCity, async (req, res) => {
+router.get('/tipospagamentos/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     pipeline = [
@@ -53,7 +58,7 @@ router.get('/tipospagamentos/:city', checkUserCity, async (req, res) => {
     res.json(tipos_pag)
 })
 
-router.get('/periodo/:city', checkUserCity, async (req, res) => {
+router.get('/periodo/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     pipeline = [
@@ -76,7 +81,7 @@ router.get('/periodo/:city', checkUserCity, async (req, res) => {
     res.json(periodo)
 })
 
-router.get('/zoneamento/:city', checkUserCity, async (req, res) => {
+router.get('/zoneamento/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     const cidade = await City.findOne({name:name_cidade})
@@ -84,7 +89,7 @@ router.get('/zoneamento/:city', checkUserCity, async (req, res) => {
     res.json(cidade.zoneamento)
 })
 
-router.get('/coord/:city', checkUserCity, async (req, res) => {
+router.get('/coord/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     const cidade = await City.findOne({name:name_cidade})
@@ -92,7 +97,7 @@ router.get('/coord/:city', checkUserCity, async (req, res) => {
     res.json(cidade.coord)
 })
 
-router.get('/picoDU/:city', checkUserCity, async (req, res) => {
+router.get('/picoDU/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     const cidade = await City.findOne({name:name_cidade})
@@ -100,7 +105,7 @@ router.get('/picoDU/:city', checkUserCity, async (req, res) => {
     res.json(cidade.picoDU)
 })
 
-router.get('/picoFDS/:city', checkUserCity, async (req, res) => {
+router.get('/picoFDS/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
     const cidade = await City.findOne({name:name_cidade})
@@ -108,7 +113,7 @@ router.get('/picoFDS/:city', checkUserCity, async (req, res) => {
     res.json(cidade.picoFDS)
 })
 
-router.get('/dados/:city', checkUserCity, async (req, res) => {
+router.get('/dados/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const name_cidade = req.params.city
 
@@ -178,23 +183,18 @@ function checkAuthenticated(req, res, next) {
     res.redirect('/login');
 };
 
-function checkUserCity(req, res, next) {
+async function checkUserCity(req, res, next) {
     const currentUserID = req.session.passport.user;
     const name_cidade = req.params.city
-    if (req.isAuthenticated()) {
-        currentUser = User.findById(currentUserID, (err, user) => {
-            if (user.isAdmin) {
-                return next();
-            } else {
-                if (user.city === name_cidade) {
-                    return next();
-                } else {
-                    res.redirect('/')
-                }
-            }
-        });
+    currentUser = await User.findById(currentUserID).populate('city')
+    if (currentUser.isAdmin) {
+        return next();
     } else {
-        res.redirect('/login')
+        if (currentUser.city.name === name_cidade) {
+            return next();
+        } else {
+            res.redirect('/')
+        }
     };
 }
 

@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="main-css" rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <script src="/js/bootstrap.min.js"></script>
     <title>AppTz</title>
 </head>
-<body>
+<body class="user-background">
     <script>0</script> <!-- fix firefox bug -->
-    <div class="container">
-        <%- include('../partials/user-header.ejs') %>
-        <div class="inner-container">
-        <%- include('../partials/errorMessage.ejs') %>
-        <%- body %>
+    <div class="header-background-user">
+        <div class="container">
+            <%- include('../partials/user-header.ejs') %>
         </div>
     </div>
+    <div class="user-body">
+        <%- body %>
+    </div>   
+    <footer class="footer-copyright">
+        <!-- Copyright -->
+        <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold footer-copyright-text" href="https://tranzum.com.br/">Tranzum Planejamento e Consultoria de Trânsito</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 </body>
 </html>

@@ -1,3 +1,9 @@
+@import url('/css/shared/fonts.css');
+
+:root{
+    --btn-color: rgb(73, 115, 192);
+    --nav-bar--background-color: rgba(85, 85, 85, 0.505)
+}
 html, body {
     height: 100%;
     overflow: hidden;
@@ -5,15 +11,42 @@ html, body {
 
 /* logo */
 #logo {
-    display: block;
-    max-height: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 100;
+    max-height: 90px;
 } 
 
+/* nav */
+.navbar {
+    background: var(--nav-bar--background-color);
+}
+.nome-cidade {
+    color: honeydew;
+    margin-right: 20px;
+    font-size: 3rem;
+}
+.nav-item {
+    font-family: 'Roboto Thin';
+    padding: 30px 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+    color: white;
+
+}
+.nav-item:hover {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: gray;
+    font-weight: bold;
+}
+
 /* inicio offcanvas */
+    .offcanvas {
+        top: 103px;
+    }
     .offcanvas-body {
         padding: 0rem 1rem 1rem 1rem;
     }
@@ -126,9 +159,7 @@ html, body {
         margin-bottom: .5rem;
     }
     /* botao de zonas */
-    :root{
-        --btn-color: rgb(73, 115, 192);
-    }
+    
     .btn-zonas{
         color: var(--btn-color);
         display: block;
@@ -201,9 +232,6 @@ html, body {
         max-width: 420px;
         background-color: rgba(255, 255, 255, 0.8);
     }
-    /* #collapse-four {
-        max-height: 500px;
-    } */
 
     /* botao calendario */
     .icone-calendario {
