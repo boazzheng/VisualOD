@@ -1,0 +1,999 @@
+﻿{
+  "type": "FeatureCollection",
+  "metadata": {
+   "app": "IGU",
+   "arquivo": "Y:/__tmp/dados/IGU-RotasCoordenacao.geojson",
+   "fonte": "e0_DE-IGU.001-7A09-001_Medição12_B (almyr).dwg",
+   "timestamp": "2020-07-08T09:21:29:Z",
+   "local": "Ribeirão Preto - SP",
+   "tipo": "RotasCoordenacao",
+   "quantidade": 35
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1F2929",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 33 - Av. Mariano P De Almeida",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8133,-21.2087],
+          [-47.8129,-21.2089],
+          [-47.8128,-21.2093]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1F1DBA",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 04 - Av. Cel. Quito Junqueira",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7977,-21.1578],
+          [-47.7928,-21.1615]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1F1DB9",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 03 - Av. São Paulo",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8083,-21.1717],
+          [-47.8076,-21.1709],
+          [-47.8067,-21.1698],
+          [-47.8049,-21.1678],
+          [-47.8035,-21.1663],
+          [-47.8024,-21.1649],
+          [-47.801,-21.1633],
+          [-47.8,-21.1622],
+          [-47.7988,-21.1608],
+          [-47.7965,-21.1581]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A67",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 32 - Av. Treze De Maio",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7957,-21.1736],
+          [-47.7953,-21.1739],
+          [-47.7944,-21.1744],
+          [-47.794,-21.1747]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A50",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 31 - R. Florencio Abreu",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.802,-21.1842],
+          [-47.8035,-21.1832]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A41",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 30 - R. Camilo De Matos",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7986,-21.1774],
+          [-47.7972,-21.1784]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A40",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 29 - R. Henrique Dumont",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7995,-21.1782],
+          [-47.7969,-21.1801]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A2D",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 28 - Av. Thomaz Alberto Whately",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7853,-21.1408],
+          [-47.7827,-21.1417],
+          [-47.779,-21.1429],
+          [-47.7763,-21.1437],
+          [-47.7708,-21.1455],
+          [-47.7686,-21.1462],
+          [-47.7673,-21.1466],
+          [-47.7671,-21.1459],
+          [-47.7665,-21.1443],
+          [-47.7659,-21.1426],
+          [-47.7654,-21.1412],
+          [-47.7649,-21.1398],
+          [-47.7644,-21.1384],
+          [-47.7642,-21.1378]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A1F",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 27 - Av. Mogiana",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7881,-21.1475],
+          [-47.7879,-21.1476],
+          [-47.7875,-21.1477],
+          [-47.7869,-21.148],
+          [-47.7867,-21.1481],
+          [-47.7866,-21.1482],
+          [-47.7862,-21.1484],
+          [-47.7857,-21.1488],
+          [-47.7847,-21.1495],
+          [-47.7836,-21.1503],
+          [-47.7826,-21.151],
+          [-47.7818,-21.1515],
+          [-47.781,-21.1521]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A1D",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 26 - Av. Meira Junior",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7942,-21.1728],
+          [-47.7932,-21.1716],
+          [-47.7919,-21.1702],
+          [-47.7914,-21.1696],
+          [-47.7898,-21.1679],
+          [-47.7895,-21.1675],
+          [-47.7894,-21.1673],
+          [-47.7893,-21.1672],
+          [-47.7891,-21.1668],
+          [-47.7891,-21.1666],
+          [-47.7892,-21.1663],
+          [-47.7893,-21.166],
+          [-47.7899,-21.1648],
+          [-47.79,-21.1646],
+          [-47.79,-21.1644],
+          [-47.79,-21.1642],
+          [-47.7899,-21.1639],
+          [-47.7898,-21.1636],
+          [-47.7894,-21.1631],
+          [-47.7888,-21.1624],
+          [-47.7883,-21.1617],
+          [-47.7875,-21.1607],
+          [-47.7858,-21.1586],
+          [-47.7843,-21.1566],
+          [-47.7834,-21.1555],
+          [-47.7832,-21.1552],
+          [-47.783,-21.155],
+          [-47.7825,-21.1543],
+          [-47.7813,-21.1528]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A18",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 24 - Av. Antonio Diederichsen",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8075,-21.1958],
+          [-47.8073,-21.1959],
+          [-47.8071,-21.1959],
+          [-47.807,-21.1959],
+          [-47.8068,-21.1959],
+          [-47.8058,-21.1955]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9A16",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 25 - Av. Independencia",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8239,-21.2084],
+          [-47.8234,-21.2078],
+          [-47.823,-21.2073],
+          [-47.8222,-21.2064],
+          [-47.8215,-21.2055],
+          [-47.8209,-21.2049],
+          [-47.8204,-21.2043],
+          [-47.8196,-21.2033],
+          [-47.8186,-21.202],
+          [-47.8178,-21.2011],
+          [-47.8173,-21.2004],
+          [-47.8168,-21.1999],
+          [-47.8158,-21.1986],
+          [-47.8155,-21.1982],
+          [-47.8152,-21.1979],
+          [-47.8148,-21.1974],
+          [-47.8145,-21.197],
+          [-47.8141,-21.1966],
+          [-47.8132,-21.1955],
+          [-47.8125,-21.1946],
+          [-47.8111,-21.1929],
+          [-47.8106,-21.1923],
+          [-47.8099,-21.1914],
+          [-47.8092,-21.1906],
+          [-47.8087,-21.1899],
+          [-47.8081,-21.1892],
+          [-47.8074,-21.1884],
+          [-47.8069,-21.1878],
+          [-47.8063,-21.1871],
+          [-47.8057,-21.1864],
+          [-47.8053,-21.1858],
+          [-47.8045,-21.1849],
+          [-47.8039,-21.1842],
+          [-47.8033,-21.1835],
+          [-47.803,-21.1832],
+          [-47.8027,-21.1828],
+          [-47.802,-21.182],
+          [-47.8002,-21.1799],
+          [-47.7992,-21.1786],
+          [-47.7984,-21.1777],
+          [-47.7973,-21.1764]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E999E",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 23 - Av. Presidente Vargas",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8143,-21.2128],
+          [-47.8139,-21.212],
+          [-47.8136,-21.2114],
+          [-47.813,-21.2102],
+          [-47.812,-21.208],
+          [-47.8112,-21.2063],
+          [-47.8106,-21.2049],
+          [-47.8103,-21.2042],
+          [-47.8098,-21.203],
+          [-47.8093,-21.2022],
+          [-47.8088,-21.2011],
+          [-47.8085,-21.2004],
+          [-47.8084,-21.2],
+          [-47.8083,-21.1998],
+          [-47.8082,-21.1994],
+          [-47.8081,-21.1988],
+          [-47.808,-21.1982],
+          [-47.8079,-21.1976],
+          [-47.8078,-21.1972],
+          [-47.8077,-21.1965],
+          [-47.8076,-21.196],
+          [-47.8075,-21.1953],
+          [-47.8074,-21.1946],
+          [-47.8073,-21.194],
+          [-47.8071,-21.193],
+          [-47.8069,-21.1919],
+          [-47.8068,-21.1911],
+          [-47.8067,-21.1905],
+          [-47.8065,-21.1895],
+          [-47.8064,-21.1884]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1DA0AE",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 22 - Av. Lygia Latuf Salomao",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8253,-21.21],
+          [-47.8256,-21.2105],
+          [-47.8264,-21.2115],
+          [-47.827,-21.2122],
+          [-47.8275,-21.2128],
+          [-47.8276,-21.2131],
+          [-47.8275,-21.2132],
+          [-47.8268,-21.2135],
+          [-47.825,-21.2142],
+          [-47.8243,-21.2146],
+          [-47.8235,-21.215],
+          [-47.8228,-21.2154],
+          [-47.8228,-21.2156],
+          [-47.8228,-21.2159],
+          [-47.8227,-21.2161],
+          [-47.8226,-21.2162],
+          [-47.8224,-21.2164],
+          [-47.8222,-21.2165],
+          [-47.8219,-21.2165],
+          [-47.8216,-21.2163],
+          [-47.8213,-21.2161],
+          [-47.8211,-21.2161],
+          [-47.8204,-21.2163]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1DA0AD",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 21 - Av. Braz Olaia Acosta",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8163,-21.2087],
+          [-47.8164,-21.2096],
+          [-47.8164,-21.2097],
+          [-47.8165,-21.2099],
+          [-47.8166,-21.2102],
+          [-47.8168,-21.2105],
+          [-47.817,-21.2107],
+          [-47.8171,-21.2108],
+          [-47.8173,-21.2109],
+          [-47.8175,-21.211],
+          [-47.8178,-21.2111],
+          [-47.818,-21.2112],
+          [-47.8183,-21.2112],
+          [-47.8186,-21.2114],
+          [-47.819,-21.2116],
+          [-47.8193,-21.2118],
+          [-47.8196,-21.2121],
+          [-47.8198,-21.2126],
+          [-47.8201,-21.2132],
+          [-47.8204,-21.2138],
+          [-47.8207,-21.2142],
+          [-47.821,-21.2146],
+          [-47.8214,-21.2151],
+          [-47.8216,-21.2151],
+          [-47.8219,-21.215],
+          [-47.8222,-21.215],
+          [-47.8224,-21.2151],
+          [-47.8225,-21.2152],
+          [-47.8226,-21.2153],
+          [-47.8227,-21.2155],
+          [-47.8228,-21.2156],
+          [-47.8228,-21.2158],
+          [-47.8228,-21.2159],
+          [-47.8229,-21.216],
+          [-47.8233,-21.2162]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9E72",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 20 - R. Capitão Salomão",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8066,-21.166],
+          [-47.8043,-21.1678]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9E70",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 19 - R. Goiás Trecho 060",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8029,-21.1676],
+          [-47.806,-21.1652]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9DFF",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 18 - Rotatoria. Vila Elsa",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7875,-21.1399],
+          [-47.7872,-21.1401],
+          [-47.787,-21.14],
+          [-47.7867,-21.1399],
+          [-47.7864,-21.14],
+          [-47.7863,-21.1403],
+          [-47.7861,-21.1404],
+          [-47.7857,-21.1406]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9DFE",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 18 - Rotatoria. Vila Elsa",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7876,-21.14],
+          [-47.7872,-21.1402],
+          [-47.7871,-21.1403],
+          [-47.7871,-21.1406],
+          [-47.7867,-21.1408],
+          [-47.7864,-21.1407],
+          [-47.7862,-21.1406],
+          [-47.7858,-21.1408]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9DFC",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 17 - Av. Brasil",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7888,-21.1446],
+          [-47.7875,-21.1419]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9DF7",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 16 - Pca. Antônio Lopes Balau",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7912,-21.1461],
+          [-47.7906,-21.1463],
+          [-47.7904,-21.1463],
+          [-47.79,-21.1461],
+          [-47.7895,-21.1462],
+          [-47.7893,-21.1467],
+          [-47.7891,-21.147],
+          [-47.7887,-21.1472]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9DF0",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 16 - Pca. Antônio Lopes Balau",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.7912,-21.1462],
+          [-47.7907,-21.1465],
+          [-47.7906,-21.1466],
+          [-47.7906,-21.1468],
+          [-47.7905,-21.147],
+          [-47.7903,-21.1472],
+          [-47.7899,-21.1473],
+          [-47.7896,-21.1472],
+          [-47.7892,-21.1471],
+          [-47.789,-21.1471],
+          [-47.7887,-21.1473]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9B4D",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 15 - Av. Pres. Vargas - Unip",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8148,-21.2154],
+          [-47.8149,-21.2163],
+          [-47.8149,-21.2168],
+          [-47.8149,-21.2174],
+          [-47.815,-21.2178],
+          [-47.8151,-21.2183],
+          [-47.8153,-21.2187],
+          [-47.8156,-21.2191],
+          [-47.8157,-21.2194],
+          [-47.8158,-21.2196]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9B4B",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 14 - Av. José Cezário M. Da Silva",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8195,-21.2166],
+          [-47.8173,-21.2174],
+          [-47.8159,-21.2179]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9ADD",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 13 - R. Marques Do Pombal",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8112,-21.1646],
+          [-47.8096,-21.1628],
+          [-47.8082,-21.1612],
+          [-47.8079,-21.1608],
+          [-47.8073,-21.16],
+          [-47.8067,-21.1593]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9AD5",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 12 - R. Goiás",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8097,-21.162],
+          [-47.8081,-21.1632]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9AD3",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 11 - R. Amazonas",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8097,-21.1604],
+          [-47.808,-21.1616]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9AD0",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 10 - R. Patrocínio",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8056,-21.1606],
+          [-47.8064,-21.1599],
+          [-47.8073,-21.1593],
+          [-47.8079,-21.1589]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D99D7",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 09 - R. Silveira Martins",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8126,-21.1683],
+          [-47.8134,-21.1679],
+          [-47.8141,-21.1674],
+          [-47.8141,-21.1661],
+          [-47.8135,-21.1655],
+          [-47.8127,-21.1646],
+          [-47.8115,-21.1631],
+          [-47.811,-21.1627],
+          [-47.8111,-21.1625],
+          [-47.8119,-21.1619]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D95F4",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 08 - Deck Delícia - Av. Antonio Diederichsen",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8029,-21.1944],
+          [-47.8018,-21.1939],
+          [-47.8002,-21.1934],
+          [-47.7993,-21.193]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D95ED",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 07 - Deck Delícia - Av. Portugal",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8012,-21.1911],
+          [-47.8012,-21.192],
+          [-47.8011,-21.1926],
+          [-47.801,-21.1933],
+          [-47.8008,-21.1946],
+          [-47.8005,-21.1956]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D95E5",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 06 - Deck Delícia - Av. Nove De Julho",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "4",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8016,-21.1921],
+          [-47.7997,-21.1935]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1CA894",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 05 - Av. Do Café",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "5",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8384,-21.1747],
+          [-47.837,-21.1747],
+          [-47.8356,-21.1747],
+          [-47.8346,-21.1748],
+          [-47.832,-21.1748],
+          [-47.8297,-21.1748],
+          [-47.8266,-21.1749],
+          [-47.8231,-21.1749],
+          [-47.8228,-21.1749],
+          [-47.8222,-21.1749],
+          [-47.8208,-21.1746],
+          [-47.8192,-21.1743],
+          [-47.8188,-21.1743],
+          [-47.8181,-21.1743],
+          [-47.817,-21.1743]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1ABF36",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 02 - Av. Saudade",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.791,-21.1489],
+          [-47.7918,-21.1505],
+          [-47.792,-21.1509],
+          [-47.7925,-21.1517],
+          [-47.7927,-21.152],
+          [-47.7945,-21.1541],
+          [-47.7961,-21.1559],
+          [-47.7972,-21.1571],
+          [-47.7977,-21.1577],
+          [-47.7984,-21.1586],
+          [-47.7992,-21.1596],
+          [-47.8003,-21.1608],
+          [-47.8021,-21.1629],
+          [-47.8035,-21.1645],
+          [-47.8045,-21.1657],
+          [-47.806,-21.1675],
+          [-47.8073,-21.169],
+          [-47.8086,-21.1706],
+          [-47.8091,-21.1711]
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A6129",
+        "RTIPO": "RotasCoordenacao",
+        "IGUNOME": "Banda 01 - Av. Dom Pedro I",
+        "IGUCAMADA": "RotasCoordenacao",
+        "stroke": "#B20099",
+        "strokeWidth": "6",
+        "strokeOpacity": "1.0",
+        "dashArray": "6, 10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-47.8157,-21.1589],
+          [-47.8168,-21.158],
+          [-47.8184,-21.1568],
+          [-47.82,-21.1556],
+          [-47.8216,-21.1543],
+          [-47.8232,-21.153],
+          [-47.8264,-21.1505],
+          [-47.828,-21.1492],
+          [-47.8297,-21.1479],
+          [-47.831,-21.1469],
+          [-47.8314,-21.1465],
+          [-47.8316,-21.146],
+          [-47.8319,-21.1451],
+          [-47.8321,-21.1445],
+          [-47.8326,-21.1432]
+        ]
+      }
+     }
+  ]
+}

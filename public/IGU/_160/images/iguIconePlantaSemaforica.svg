@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <title
+     id="title4">Semáforo</title>
+  <!-- circle
+     cx="250"
+     cy="250"
+     r="95"
+     stroke=""
+     stroke-width=""
+     fill="white"
+     id="circle6"
+     style="fill:#ffffff" / -->
+  <g
+     id="g4202"
+     transform="matrix(0.3943545,0,0,0.3943545,155.12596,155)">
+    <path
+       id="path4144"
+       d="m 333.7,481.8 -185.6,0 c -6.6,0 -12,-5.4 -12,-12 l 0,-457.8 c 0,-6.6 5.4,-12 12,-12 L 333,0 c 6.6,0 12,5.4 12,12 l 0,457.8 c 0.7,6.6 -4.7,12 -11.3,12 z"
+       style="fill:#404040" />
+    <g
+       id="g4146" />
+    <circle
+       id="circle4154"
+       r="59.599998"
+       cy="86.099998"
+       cx="240.89999"
+       style="fill:#f0f0f0" />
+    <circle
+       id="circle4156"
+       r="59.599998"
+       cy="240.89999"
+       cx="240.89999"
+       style="fill:#f0f0f0" />
+    <circle
+       id="circle4158"
+       r="59.599998"
+       cy="395.70001"
+       cx="240.89999"
+       style="fill:#f0f0f0" />
+  </g>
+</svg>

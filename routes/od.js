@@ -3,7 +3,9 @@ const router = express.Router()
 const User = require('../models/user')
 const City = require('../models/city')
 const OD = require('../models/od')
+const {checkAuthenticated, checkNotAuthenticated, checkUserCity, checkError, checkIsAdmin} = require('../public/js/check')
 
+// data endpoints ----------------------------------------------------------------------------
 router.get('/:city', checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
     const currentUserID = req.session.passport.user;
@@ -16,9 +18,6 @@ router.get('/:city', checkUserCity, async (req, res) => {
     })
 })
 
-
-
-// data endpoints ----------------------------------------------------------------------------
 
 router.get('/origensedestinos/:city', checkAuthenticated, checkUserCity, async (req, res) => {
     res.locals.errorMessage = checkError(req);
@@ -176,34 +175,5 @@ router.get('/dados/:city', checkAuthenticated, checkUserCity, async (req, res) =
     res.json(resultadoOD)
 })
 
-function checkAuthenticated(req, res, next) {
-    if (req.isAuthenticated()) {
-        return next();
-    }
-    res.redirect('/login');
-};
-
-async function checkUserCity(req, res, next) {
-    const currentUserID = req.session.passport.user;
-    const name_cidade = req.params.city
-    currentUser = await User.findById(currentUserID).populate('city')
-    if (currentUser.isAdmin) {
-        return next();
-    } else {
-        if (currentUser.city.name === name_cidade) {
-            return next();
-        } else {
-            res.redirect('/')
-        }
-    };
-}
-
-function checkError(req) {
-    if (req.query.error) {
-        return req.query.error
-    } else {
-        return null
-    }
-}
 
 module.exports = router

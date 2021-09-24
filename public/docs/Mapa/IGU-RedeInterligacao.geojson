@@ -1,0 +1,7512 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+   "app": "IGU",
+   "arquivo": "Y:/__tmp/dados/IGU-RedeInterligacao.geojson",
+   "fonte": "e0_DE-IGU.001-7A09-001_Medição12_B (almyr).dwg",
+   "timestamp": "2020-06-10T11:53:09:Z",
+   "local": "Ribeirão Preto - SP",
+   "tipo": "RedeInterligacao",
+   "quantidade": 224
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E97BF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "720-721",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7883,-21.1621],
+          [-47.7887,-21.1618],
+          [-47.789,-21.1618],
+          [-47.7895,-21.1624],
+          [-47.7895,-21.1625],
+          [-47.789,-21.1629],
+          [-47.7887,-21.1629],
+          [-47.7882,-21.1623],
+          [-47.7883,-21.1621]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E97B3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "222-223-722",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7873,-21.161],
+          [-47.7877,-21.1608],
+          [-47.788,-21.1607],
+          [-47.7886,-21.1615],
+          [-47.7886,-21.1616],
+          [-47.7881,-21.162],
+          [-47.7879,-21.162],
+          [-47.7872,-21.1612],
+          [-47.7873,-21.161]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E979B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "723-724",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7842,-21.1569],
+          [-47.7846,-21.1566],
+          [-47.7847,-21.1566],
+          [-47.786,-21.1583],
+          [-47.786,-21.1584],
+          [-47.7856,-21.1587],
+          [-47.7854,-21.1587],
+          [-47.7842,-21.157],
+          [-47.7842,-21.1569]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9799",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "727",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7824,-21.1547],
+          [-47.7828,-21.1544],
+          [-47.7829,-21.1544],
+          [-47.7833,-21.1549],
+          [-47.7833,-21.155],
+          [-47.7829,-21.1554],
+          [-47.7828,-21.1553],
+          [-47.7824,-21.1548],
+          [-47.7824,-21.1547]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E978D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "735-736",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7871,-21.1482],
+          [-47.7869,-21.1478],
+          [-47.7869,-21.1477],
+          [-47.7878,-21.1473],
+          [-47.7879,-21.1473],
+          [-47.7882,-21.1477],
+          [-47.7881,-21.1478],
+          [-47.7872,-21.1482],
+          [-47.7871,-21.1482]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9731",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "228-732-733-734",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.785,-21.1497],
+          [-47.7846,-21.1493],
+          [-47.7847,-21.1492],
+          [-47.7863,-21.148],
+          [-47.7864,-21.148],
+          [-47.7868,-21.1484],
+          [-47.7867,-21.1486],
+          [-47.7851,-21.1497],
+          [-47.785,-21.1497]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E96B9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "731",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7828,-21.1511],
+          [-47.7825,-21.1508],
+          [-47.7825,-21.1507],
+          [-47.783,-21.1503],
+          [-47.7832,-21.1503],
+          [-47.7835,-21.1507],
+          [-47.7835,-21.1508],
+          [-47.7829,-21.1511],
+          [-47.7828,-21.1511]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9635",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "227-728-729-730",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.781,-21.1525],
+          [-47.7807,-21.1521],
+          [-47.7807,-21.152],
+          [-47.781,-21.1517],
+          [-47.7821,-21.151],
+          [-47.7822,-21.151],
+          [-47.7825,-21.1514],
+          [-47.7825,-21.1515],
+          [-47.7811,-21.1525],
+          [-47.781,-21.1525]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E931F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "462-463",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8234,-21.2084],
+          [-47.8223,-21.2069],
+          [-47.8223,-21.2068],
+          [-47.8226,-21.2065],
+          [-47.8228,-21.2065],
+          [-47.824,-21.208],
+          [-47.824,-21.2081],
+          [-47.8236,-21.2084],
+          [-47.8234,-21.2084]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E92C6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "417-460-461",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8216,-21.2062],
+          [-47.8205,-21.2048],
+          [-47.8205,-21.2047],
+          [-47.8208,-21.2044],
+          [-47.821,-21.2044],
+          [-47.8221,-21.2057],
+          [-47.8222,-21.2059],
+          [-47.8218,-21.2062],
+          [-47.8216,-21.2062]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E9275",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "486-487",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.82,-21.2044],
+          [-47.8196,-21.2039],
+          [-47.8196,-21.2036],
+          [-47.82,-21.2032],
+          [-47.8203,-21.2033],
+          [-47.8208,-21.204],
+          [-47.8207,-21.2042],
+          [-47.8203,-21.2044],
+          [-47.82,-21.2044]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E91DC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "415",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8188,-21.2028],
+          [-47.8186,-21.2025],
+          [-47.8186,-21.2024],
+          [-47.8189,-21.2021],
+          [-47.8191,-21.2021],
+          [-47.8194,-21.2025],
+          [-47.8194,-21.2026],
+          [-47.8189,-21.2029],
+          [-47.8188,-21.2028]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1E91D2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "458-459",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.818,-21.2018],
+          [-47.8173,-21.201],
+          [-47.8173,-21.2008],
+          [-47.8176,-21.2005],
+          [-47.8178,-21.2005],
+          [-47.8185,-21.2014],
+          [-47.8185,-21.2015],
+          [-47.8181,-21.2018],
+          [-47.818,-21.2018]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1DA230",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "409-457",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8149,-21.198],
+          [-47.8143,-21.1973],
+          [-47.8143,-21.1971],
+          [-47.8146,-21.1969],
+          [-47.8148,-21.1969],
+          [-47.8154,-21.1976],
+          [-47.8154,-21.1977],
+          [-47.815,-21.198],
+          [-47.8149,-21.198]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1DA21E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "456",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8129,-21.1955],
+          [-47.8125,-21.1951],
+          [-47.8126,-21.1949],
+          [-47.8128,-21.1947],
+          [-47.813,-21.1947],
+          [-47.8133,-21.1951],
+          [-47.8133,-21.1952],
+          [-47.813,-21.1955],
+          [-47.8129,-21.1955]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D982F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "540-541-542",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8442,-21.1724],
+          [-47.8436,-21.1724],
+          [-47.8435,-21.1725],
+          [-47.8435,-21.1731],
+          [-47.8436,-21.1732],
+          [-47.8445,-21.1733],
+          [-47.8447,-21.1733],
+          [-47.8449,-21.1731],
+          [-47.8448,-21.1729],
+          [-47.8442,-21.1724]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9332",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "465-466",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8068,-21.1926],
+          [-47.8074,-21.1925],
+          [-47.8075,-21.1926],
+          [-47.8077,-21.1939],
+          [-47.8076,-21.194],
+          [-47.8069,-21.1941],
+          [-47.8068,-21.194],
+          [-47.8067,-21.1927],
+          [-47.8068,-21.1926]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9181",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "423-424-464-467-468",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8064,-21.1907],
+          [-47.807,-21.1905],
+          [-47.8071,-21.1906],
+          [-47.8074,-21.1922],
+          [-47.8073,-21.1924],
+          [-47.8067,-21.1925],
+          [-47.8066,-21.1924],
+          [-47.8063,-21.1907],
+          [-47.8064,-21.1907]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8D46",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "832",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8162,-21.2096],
+          [-47.8161,-21.2092],
+          [-47.8162,-21.2091],
+          [-47.8165,-21.2091],
+          [-47.8165,-21.2091],
+          [-47.8166,-21.2094],
+          [-47.8166,-21.2095],
+          [-47.8163,-21.2096],
+          [-47.8162,-21.2096]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8D44",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "829-830-831",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8171,-21.2111],
+          [-47.8164,-21.2104],
+          [-47.8164,-21.2103],
+          [-47.8167,-21.2102],
+          [-47.8168,-21.2102],
+          [-47.8174,-21.2107],
+          [-47.8174,-21.2109],
+          [-47.8172,-21.2111],
+          [-47.8171,-21.2111]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8D42",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "827-828",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8185,-21.2116],
+          [-47.8189,-21.2111],
+          [-47.8192,-21.2113],
+          [-47.8193,-21.2113],
+          [-47.8189,-21.2118],
+          [-47.8188,-21.2119],
+          [-47.8185,-21.2117],
+          [-47.8185,-21.2116]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8D40",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "822-823-824-825-826",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8193,-21.2126],
+          [-47.82,-21.2123],
+          [-47.821,-21.2139],
+          [-47.821,-21.2139],
+          [-47.8204,-21.2143],
+          [-47.8203,-21.2142],
+          [-47.8193,-21.2126]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8D3E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "820-821",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8204,-21.2143],
+          [-47.821,-21.214],
+          [-47.8212,-21.2142],
+          [-47.8212,-21.2143],
+          [-47.8207,-21.2146],
+          [-47.8206,-21.2146],
+          [-47.8204,-21.2144],
+          [-47.8204,-21.2143]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8A1B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "421-814-815-816-817-818-819",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.821,-21.2152],
+          [-47.8206,-21.2148],
+          [-47.8212,-21.2144],
+          [-47.8216,-21.2146],
+          [-47.822,-21.2149],
+          [-47.8213,-21.2165],
+          [-47.8212,-21.2166],
+          [-47.8206,-21.2163],
+          [-47.821,-21.2152]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D8A19",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "809-810-811-812-813",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8226,-21.2163],
+          [-47.8226,-21.2151],
+          [-47.8233,-21.2148],
+          [-47.8234,-21.2149],
+          [-47.8234,-21.2156],
+          [-47.8232,-21.2165],
+          [-47.8231,-21.2165],
+          [-47.8226,-21.2164],
+          [-47.8226,-21.2163]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D4892",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "804-805-806",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8272,-21.2121],
+          [-47.8277,-21.2127],
+          [-47.8277,-21.2131],
+          [-47.8274,-21.2134],
+          [-47.8267,-21.2126],
+          [-47.8267,-21.2125],
+          [-47.8271,-21.2122],
+          [-47.8272,-21.2121]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D47BB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "801-802-803",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8261,-21.2116],
+          [-47.8252,-21.2105],
+          [-47.8252,-21.2104],
+          [-47.8255,-21.2101],
+          [-47.8257,-21.2101],
+          [-47.8266,-21.2112],
+          [-47.8266,-21.2113],
+          [-47.8262,-21.2116],
+          [-47.8261,-21.2116]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D4692",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "419-420-808",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8237,-21.2145],
+          [-47.8246,-21.214],
+          [-47.825,-21.2143],
+          [-47.825,-21.2145],
+          [-47.8242,-21.215],
+          [-47.824,-21.215],
+          [-47.8237,-21.2146],
+          [-47.8237,-21.2145]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D4457",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "118-119-120-121",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8039,-21.1742],
+          [-47.805,-21.1733],
+          [-47.8051,-21.1733],
+          [-47.8055,-21.1737],
+          [-47.8055,-21.1738],
+          [-47.8045,-21.1747],
+          [-47.8044,-21.1748],
+          [-47.8039,-21.1743],
+          [-47.8039,-21.1742]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D4455",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "116-117",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8018,-21.1765],
+          [-47.8021,-21.176],
+          [-47.8023,-21.176],
+          [-47.8028,-21.1763],
+          [-47.8028,-21.1764],
+          [-47.8025,-21.177],
+          [-47.8024,-21.177],
+          [-47.8018,-21.1766],
+          [-47.8018,-21.1765]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3DA2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "449-483-484-485",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8178,-21.2167],
+          [-47.8187,-21.2165],
+          [-47.8191,-21.2165],
+          [-47.8193,-21.217],
+          [-47.8192,-21.2171],
+          [-47.818,-21.2175],
+          [-47.8179,-21.2174],
+          [-47.8178,-21.2169],
+          [-47.8178,-21.2167]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3CCB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "481",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8159,-21.2171],
+          [-47.8162,-21.2171],
+          [-47.8163,-21.2171],
+          [-47.8163,-21.2174],
+          [-47.8162,-21.2175],
+          [-47.8159,-21.2175],
+          [-47.8158,-21.2174],
+          [-47.8158,-21.2172],
+          [-47.8159,-21.2171]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3CC9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "450-451-452-480-482",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8152,-21.217],
+          [-47.8156,-21.217],
+          [-47.8157,-21.2171],
+          [-47.8158,-21.2175],
+          [-47.8163,-21.2175],
+          [-47.8164,-21.2176],
+          [-47.8163,-21.2184],
+          [-47.8158,-21.2192],
+          [-47.8153,-21.2193],
+          [-47.8147,-21.218],
+          [-47.8152,-21.2172],
+          [-47.8152,-21.217]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3BEF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "478-479",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8146,-21.2154],
+          [-47.8151,-21.2154],
+          [-47.8152,-21.2155],
+          [-47.8153,-21.2159],
+          [-47.8152,-21.216],
+          [-47.8146,-21.216],
+          [-47.8145,-21.2159],
+          [-47.8145,-21.2155],
+          [-47.8146,-21.2154]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3AAD",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "448-476-477",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8131,-21.211],
+          [-47.8137,-21.2108],
+          [-47.8138,-21.2109],
+          [-47.8144,-21.2123],
+          [-47.8144,-21.2124],
+          [-47.8138,-21.2126],
+          [-47.8138,-21.2126],
+          [-47.8131,-21.2111],
+          [-47.8131,-21.211]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3A5E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "440-441-442-445-446",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8117,-21.2083],
+          [-47.8124,-21.208],
+          [-47.8126,-21.208],
+          [-47.8127,-21.2085],
+          [-47.8131,-21.2085],
+          [-47.8135,-21.2089],
+          [-47.813,-21.2101],
+          [-47.8125,-21.2103],
+          [-47.8123,-21.2102],
+          [-47.8117,-21.2084],
+          [-47.8117,-21.2083]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D39F6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "474-475",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8114,-21.2073],
+          [-47.8119,-21.2071],
+          [-47.812,-21.2072],
+          [-47.8122,-21.2076],
+          [-47.8121,-21.2076],
+          [-47.8116,-21.2078],
+          [-47.8115,-21.2078],
+          [-47.8113,-21.2074],
+          [-47.8114,-21.2073]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3982",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "432-434-435-436-437-473",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.81,-21.203],
+          [-47.8103,-21.2028],
+          [-47.8108,-21.2034],
+          [-47.8106,-21.2038],
+          [-47.8108,-21.2047],
+          [-47.8107,-21.2048],
+          [-47.8103,-21.2049],
+          [-47.8101,-21.205],
+          [-47.8097,-21.2039],
+          [-47.81,-21.203]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D391A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "433-471-472",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8091,-21.2021],
+          [-47.8096,-21.202],
+          [-47.8097,-21.202],
+          [-47.81,-21.2028],
+          [-47.8098,-21.2029],
+          [-47.8099,-21.2032],
+          [-47.8099,-21.2034],
+          [-47.8095,-21.2036],
+          [-47.809,-21.2022],
+          [-47.8091,-21.2021]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D38CB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "431-469-470",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8082,-21.2004],
+          [-47.8088,-21.2002],
+          [-47.8089,-21.2003],
+          [-47.8094,-21.2014],
+          [-47.8094,-21.2015],
+          [-47.8087,-21.2018],
+          [-47.8086,-21.2018],
+          [-47.8081,-21.2005],
+          [-47.8082,-21.2004]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D387F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "430-443",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8077,-21.1989],
+          [-47.8084,-21.1988],
+          [-47.8085,-21.1988],
+          [-47.8086,-21.1994],
+          [-47.8085,-21.1995],
+          [-47.8078,-21.1996],
+          [-47.8077,-21.1996],
+          [-47.8076,-21.199],
+          [-47.8077,-21.1989]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3830",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "427-429",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8075,-21.1976],
+          [-47.8081,-21.1975],
+          [-47.8083,-21.1976],
+          [-47.8084,-21.1982],
+          [-47.8083,-21.1983],
+          [-47.8076,-21.1984],
+          [-47.8075,-21.1983],
+          [-47.8074,-21.1977],
+          [-47.8075,-21.1976]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D356D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "104-313-314",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8053,-21.1862],
+          [-47.8057,-21.1859],
+          [-47.8061,-21.1865],
+          [-47.807,-21.1859],
+          [-47.8073,-21.1863],
+          [-47.8073,-21.1865],
+          [-47.8062,-21.1873],
+          [-47.8061,-21.1873],
+          [-47.8053,-21.1863],
+          [-47.8053,-21.1862]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D356B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "319",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8059,-21.1885],
+          [-47.8064,-21.1882],
+          [-47.8066,-21.1882],
+          [-47.807,-21.1886],
+          [-47.8069,-21.1887],
+          [-47.8064,-21.1891],
+          [-47.8063,-21.1891],
+          [-47.8059,-21.1886],
+          [-47.8059,-21.1885]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3569",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "317-384",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8062,-21.1874],
+          [-47.8066,-21.1872],
+          [-47.8067,-21.1872],
+          [-47.8067,-21.1874],
+          [-47.8068,-21.1877],
+          [-47.8066,-21.188],
+          [-47.8064,-21.1881],
+          [-47.8063,-21.1877],
+          [-47.8062,-21.1874]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D34B7",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "318-383-385-386-387",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8067,-21.188],
+          [-47.8072,-21.1876],
+          [-47.8073,-21.1876],
+          [-47.8077,-21.1881],
+          [-47.8077,-21.1882],
+          [-47.8071,-21.1886],
+          [-47.807,-21.1886],
+          [-47.8066,-21.1881],
+          [-47.8067,-21.188]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D33B8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "716-717",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7642,-21.1384],
+          [-47.7646,-21.1383],
+          [-47.7648,-21.1384],
+          [-47.7652,-21.1395],
+          [-47.7651,-21.1396],
+          [-47.7647,-21.1397],
+          [-47.7645,-21.1397],
+          [-47.7642,-21.1385],
+          [-47.7642,-21.1384]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3350",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "718",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.764,-21.1378],
+          [-47.7644,-21.1376],
+          [-47.7645,-21.1377],
+          [-47.7647,-21.1381],
+          [-47.7646,-21.1382],
+          [-47.7641,-21.1384],
+          [-47.764,-21.1383],
+          [-47.7639,-21.1379],
+          [-47.764,-21.1378]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D334A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "714-715",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7648,-21.1402],
+          [-47.7652,-21.14],
+          [-47.7654,-21.1401],
+          [-47.7655,-21.1405],
+          [-47.7654,-21.1406],
+          [-47.765,-21.1408],
+          [-47.7649,-21.1407],
+          [-47.7647,-21.1403],
+          [-47.7648,-21.1402]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3348",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "713",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7652,-21.1413],
+          [-47.7656,-21.1411],
+          [-47.7657,-21.1412],
+          [-47.7659,-21.1417],
+          [-47.7658,-21.1418],
+          [-47.7654,-21.1419],
+          [-47.7653,-21.1418],
+          [-47.7651,-21.1414],
+          [-47.7652,-21.1413]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3346",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "711-712",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7655,-21.1422],
+          [-47.766,-21.142],
+          [-47.7661,-21.1421],
+          [-47.7665,-21.1432],
+          [-47.7664,-21.1433],
+          [-47.766,-21.1435],
+          [-47.7659,-21.1434],
+          [-47.7655,-21.1423],
+          [-47.7655,-21.1422]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3344",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "709-710",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7664,-21.1445],
+          [-47.7668,-21.1444],
+          [-47.7669,-21.1444],
+          [-47.7671,-21.1449],
+          [-47.767,-21.145],
+          [-47.7665,-21.1451],
+          [-47.7664,-21.1451],
+          [-47.7663,-21.1446],
+          [-47.7664,-21.1445]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3342",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "274-706-707-708",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7668,-21.1461],
+          [-47.7673,-21.146],
+          [-47.7675,-21.146],
+          [-47.7676,-21.1466],
+          [-47.7676,-21.1467],
+          [-47.7671,-21.1469],
+          [-47.7669,-21.1469],
+          [-47.7668,-21.1462],
+          [-47.7668,-21.1461]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3340",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "701-702-703-704-705",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.769,-21.1457],
+          [-47.7705,-21.1452],
+          [-47.7707,-21.1453],
+          [-47.7708,-21.1456],
+          [-47.7707,-21.1458],
+          [-47.7692,-21.1463],
+          [-47.769,-21.1462],
+          [-47.7689,-21.1458],
+          [-47.769,-21.1457]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D333E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "294-295",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7736,-21.1443],
+          [-47.7743,-21.1441],
+          [-47.7744,-21.1441],
+          [-47.7745,-21.1445],
+          [-47.7744,-21.1446],
+          [-47.7738,-21.1448],
+          [-47.7736,-21.1447],
+          [-47.7735,-21.1444],
+          [-47.7736,-21.1443]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D32DE",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "290-291-292-293",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7767,-21.1432],
+          [-47.7784,-21.1427],
+          [-47.7785,-21.1428],
+          [-47.7786,-21.1432],
+          [-47.7785,-21.1433],
+          [-47.7769,-21.1438],
+          [-47.7767,-21.1438],
+          [-47.7766,-21.1434],
+          [-47.7767,-21.1432]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D32DC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "288-289",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7807,-21.142],
+          [-47.7813,-21.1418],
+          [-47.7814,-21.1418],
+          [-47.7815,-21.1422],
+          [-47.7815,-21.1423],
+          [-47.7808,-21.1426],
+          [-47.7807,-21.1425],
+          [-47.7806,-21.1421],
+          [-47.7807,-21.142]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D32DA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "285-286-287",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7828,-21.1413],
+          [-47.7835,-21.1411],
+          [-47.7836,-21.1412],
+          [-47.7837,-21.1415],
+          [-47.7837,-21.1416],
+          [-47.783,-21.1419],
+          [-47.7829,-21.1418],
+          [-47.7827,-21.1415],
+          [-47.7828,-21.1413]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D32CC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "283-284",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7846,-21.1407],
+          [-47.7851,-21.1405],
+          [-47.7853,-21.1406],
+          [-47.7854,-21.141],
+          [-47.7853,-21.1411],
+          [-47.7849,-21.1413],
+          [-47.7847,-21.1412],
+          [-47.7845,-21.1408],
+          [-47.7846,-21.1407]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D2BBA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "084-088",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8108,-21.1859],
+          [-47.81,-21.185],
+          [-47.8095,-21.1853],
+          [-47.8102,-21.1863],
+          [-47.8108,-21.1859]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D2BB7",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "083-186",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8121,-21.1842],
+          [-47.8124,-21.1847],
+          [-47.8112,-21.1855],
+          [-47.8108,-21.1851],
+          [-47.8121,-21.1842]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1ACEF3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "455",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8066,-21.1955],
+          [-47.806,-21.1953],
+          [-47.8059,-21.1954],
+          [-47.8058,-21.1958],
+          [-47.8059,-21.196],
+          [-47.8064,-21.1962],
+          [-47.8065,-21.1961],
+          [-47.8066,-21.1956],
+          [-47.8066,-21.1955]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1ACAD8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "538-539",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8383,-21.1744],
+          [-47.8378,-21.1744],
+          [-47.8378,-21.1745],
+          [-47.8378,-21.1749],
+          [-47.8378,-21.1749],
+          [-47.8383,-21.1749],
+          [-47.8384,-21.1749],
+          [-47.8384,-21.1745],
+          [-47.8383,-21.1744]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1ACA19",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "537-553",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8357,-21.1745],
+          [-47.8351,-21.1745],
+          [-47.835,-21.1746],
+          [-47.835,-21.1749],
+          [-47.8351,-21.175],
+          [-47.8356,-21.175],
+          [-47.8357,-21.1749],
+          [-47.8357,-21.1746],
+          [-47.8357,-21.1745]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC9F3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "535-536-552",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8345,-21.1745],
+          [-47.8335,-21.1745],
+          [-47.8335,-21.1746],
+          [-47.8335,-21.1749],
+          [-47.8335,-21.175],
+          [-47.8345,-21.175],
+          [-47.8346,-21.1749],
+          [-47.8346,-21.1745],
+          [-47.8345,-21.1745]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC9A8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "534",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8331,-21.1745],
+          [-47.8325,-21.1745],
+          [-47.8324,-21.1746],
+          [-47.8324,-21.175],
+          [-47.8325,-21.175],
+          [-47.8331,-21.175],
+          [-47.8332,-21.1749],
+          [-47.8332,-21.1746],
+          [-47.8331,-21.1745]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC982",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "524-550",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8309,-21.1745],
+          [-47.8301,-21.1746],
+          [-47.83,-21.1746],
+          [-47.83,-21.175],
+          [-47.8301,-21.1751],
+          [-47.8308,-21.175],
+          [-47.8309,-21.175],
+          [-47.8309,-21.1746],
+          [-47.8309,-21.1745]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC981",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "532",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8229,-21.1746],
+          [-47.8222,-21.1746],
+          [-47.8221,-21.1747],
+          [-47.8221,-21.1751],
+          [-47.8222,-21.1751],
+          [-47.8229,-21.1751],
+          [-47.823,-21.175],
+          [-47.823,-21.1747],
+          [-47.8229,-21.1746]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC980",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "533-551",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8294,-21.1746],
+          [-47.8287,-21.1746],
+          [-47.8286,-21.1747],
+          [-47.8286,-21.175],
+          [-47.8287,-21.1751],
+          [-47.8294,-21.1751],
+          [-47.8295,-21.175],
+          [-47.8295,-21.1746],
+          [-47.8294,-21.1746]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC955",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "523-548-549",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8262,-21.1747],
+          [-47.8253,-21.1747],
+          [-47.8252,-21.1748],
+          [-47.8252,-21.1751],
+          [-47.8253,-21.1752],
+          [-47.8261,-21.1752],
+          [-47.8262,-21.1751],
+          [-47.8263,-21.1748],
+          [-47.8262,-21.1747]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC954",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "522",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8245,-21.1746],
+          [-47.8238,-21.1747],
+          [-47.8237,-21.1748],
+          [-47.8237,-21.1751],
+          [-47.8238,-21.1752],
+          [-47.8245,-21.1752],
+          [-47.8246,-21.1751],
+          [-47.8246,-21.1747],
+          [-47.8245,-21.1746]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC92C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "519-544-545-546-547",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8191,-21.174],
+          [-47.8192,-21.1747],
+          [-47.8191,-21.1748],
+          [-47.8184,-21.1748],
+          [-47.8183,-21.1747],
+          [-47.8181,-21.1739],
+          [-47.8182,-21.1738],
+          [-47.819,-21.1739],
+          [-47.8191,-21.174]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC82D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "517-518-520-543",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.818,-21.174],
+          [-47.8182,-21.1746],
+          [-47.8181,-21.1747],
+          [-47.8172,-21.1747],
+          [-47.817,-21.1746],
+          [-47.817,-21.174],
+          [-47.8171,-21.1739],
+          [-47.8179,-21.1739],
+          [-47.818,-21.174]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC750",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "031-179-180",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8165,-21.1754],
+          [-47.8163,-21.175],
+          [-47.8162,-21.175],
+          [-47.8157,-21.1754],
+          [-47.8157,-21.1754],
+          [-47.8157,-21.1755],
+          [-47.8159,-21.1758],
+          [-47.816,-21.1758],
+          [-47.8165,-21.1755],
+          [-47.8165,-21.1754]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC55C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "379-380",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8009,-21.1947],
+          [-47.8005,-21.1946],
+          [-47.8004,-21.1947],
+          [-47.8003,-21.1951],
+          [-47.8004,-21.1953],
+          [-47.8008,-21.1953],
+          [-47.8009,-21.1952],
+          [-47.801,-21.1948],
+          [-47.8009,-21.1947]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC556",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "367-381",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8005,-21.1934],
+          [-47.8004,-21.1936],
+          [-47.8005,-21.1937],
+          [-47.8023,-21.1944],
+          [-47.8025,-21.1944],
+          [-47.8026,-21.1941],
+          [-47.8025,-21.194],
+          [-47.8007,-21.1933],
+          [-47.8005,-21.1934]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC555",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "370-371-372",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8006,-21.1929],
+          [-47.8005,-21.1927],
+          [-47.8003,-21.1927],
+          [-47.7997,-21.1932],
+          [-47.7997,-21.1934],
+          [-47.7999,-21.1936],
+          [-47.8,-21.1936],
+          [-47.8006,-21.193],
+          [-47.8006,-21.1929]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1AC554",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "365-373-378-382",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8008,-21.1932],
+          [-47.8014,-21.1933],
+          [-47.8015,-21.1932],
+          [-47.8015,-21.1916],
+          [-47.8014,-21.1915],
+          [-47.8009,-21.1914],
+          [-47.8008,-21.1915],
+          [-47.8007,-21.1931],
+          [-47.8008,-21.1932]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A6558",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "277-278-279-282",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7877,-21.1402],
+          [-47.7874,-21.1396],
+          [-47.7871,-21.1395],
+          [-47.7857,-21.1401],
+          [-47.7856,-21.1403],
+          [-47.7858,-21.1409],
+          [-47.7861,-21.141],
+          [-47.7876,-21.1404],
+          [-47.7877,-21.1402]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A62C2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "173-174",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8126,-21.1689],
+          [-47.812,-21.1681],
+          [-47.8116,-21.1684],
+          [-47.8121,-21.1692],
+          [-47.8126,-21.1689]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A3590",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "260-261",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.797,-21.1568],
+          [-47.7967,-21.157],
+          [-47.7966,-21.1571],
+          [-47.7959,-21.1563],
+          [-47.7959,-21.156],
+          [-47.7962,-21.1558],
+          [-47.7965,-21.1558],
+          [-47.7971,-21.1566],
+          [-47.797,-21.1568]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A3585",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "241-242",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7981,-21.1579],
+          [-47.7977,-21.1582],
+          [-47.7975,-21.1582],
+          [-47.797,-21.1576],
+          [-47.7971,-21.1574],
+          [-47.7974,-21.1572],
+          [-47.7976,-21.1571],
+          [-47.7981,-21.1577],
+          [-47.7981,-21.1579]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A3521",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "205-206",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8019,-21.1682],
+          [-47.8029,-21.1692],
+          [-47.8029,-21.1693],
+          [-47.8024,-21.1697],
+          [-47.8022,-21.1697],
+          [-47.8013,-21.1687],
+          [-47.8013,-21.1685],
+          [-47.8017,-21.1681],
+          [-47.8019,-21.1682]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A3516",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "203-231",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8044,-21.1669],
+          [-47.8032,-21.1678],
+          [-47.803,-21.1678],
+          [-47.8027,-21.1675],
+          [-47.8028,-21.1673],
+          [-47.804,-21.1664],
+          [-47.8042,-21.1664],
+          [-47.8044,-21.1667],
+          [-47.8044,-21.1669]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A3515",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "201-202-204",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8031,-21.1691],
+          [-47.8021,-21.1681],
+          [-47.8021,-21.1679],
+          [-47.8023,-21.1677],
+          [-47.8025,-21.1677],
+          [-47.803,-21.1682],
+          [-47.8036,-21.1678],
+          [-47.8038,-21.1678],
+          [-47.8041,-21.1681],
+          [-47.8041,-21.1683],
+          [-47.8031,-21.1691]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A2C69",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "514-515-529-530",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8342,-21.1401],
+          [-47.8337,-21.1397],
+          [-47.8345,-21.1385],
+          [-47.8347,-21.1385],
+          [-47.835,-21.1387],
+          [-47.8351,-21.1389],
+          [-47.835,-21.1394],
+          [-47.8349,-21.1397],
+          [-47.8344,-21.1401],
+          [-47.8342,-21.1401]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A2B76",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "527",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8329,-21.1433],
+          [-47.8323,-21.1431],
+          [-47.8321,-21.1432],
+          [-47.832,-21.1435],
+          [-47.8321,-21.1437],
+          [-47.8326,-21.1439],
+          [-47.8328,-21.1438],
+          [-47.8329,-21.1435],
+          [-47.8329,-21.1433]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1A2B41",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "512-513-525-526",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8325,-21.1443],
+          [-47.8319,-21.1441],
+          [-47.8317,-21.1443],
+          [-47.8315,-21.1452],
+          [-47.8315,-21.1453],
+          [-47.8321,-21.1455],
+          [-47.8322,-21.1454],
+          [-47.8325,-21.1445],
+          [-47.8325,-21.1443]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1327D4",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "130-131",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8089,-21.1703],
+          [-47.8084,-21.1707],
+          [-47.8089,-21.1711],
+          [-47.8093,-21.1707],
+          [-47.8089,-21.1703]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1327D3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "128-129",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8081,-21.1709],
+          [-47.8076,-21.1713],
+          [-47.808,-21.1718],
+          [-47.8085,-21.1714],
+          [-47.8081,-21.1709]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'132709",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "137-138-178",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8135,-21.1684],
+          [-47.8129,-21.1676],
+          [-47.8124,-21.1679],
+          [-47.813,-21.1687],
+          [-47.8135,-21.1684]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'FE36E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "064-172",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8111,-21.1718],
+          [-47.81,-21.1726],
+          [-47.8099,-21.1726],
+          [-47.8097,-21.1723],
+          [-47.8098,-21.1722],
+          [-47.8108,-21.1714],
+          [-47.8109,-21.1714],
+          [-47.8111,-21.1717],
+          [-47.8111,-21.1718]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C19",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "502",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.817,-21.1577],
+          [-47.8168,-21.1575],
+          [-47.8165,-21.1576],
+          [-47.8162,-21.1578],
+          [-47.8162,-21.1581],
+          [-47.8164,-21.1583],
+          [-47.8167,-21.1585],
+          [-47.817,-21.1584],
+          [-47.8172,-21.1582],
+          [-47.8172,-21.1579],
+          [-47.8172,-21.1579],
+          [-47.817,-21.1577]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C18",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "501",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8161,-21.1583],
+          [-47.8159,-21.1581],
+          [-47.8156,-21.1583],
+          [-47.8153,-21.1585],
+          [-47.8153,-21.1587],
+          [-47.8156,-21.159],
+          [-47.8158,-21.1592],
+          [-47.8161,-21.159],
+          [-47.8163,-21.1588],
+          [-47.8164,-21.1586],
+          [-47.8164,-21.1586],
+          [-47.8161,-21.1583]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C17",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "503",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8187,-21.1565],
+          [-47.8184,-21.1563],
+          [-47.8181,-21.1564],
+          [-47.8179,-21.1566],
+          [-47.8179,-21.1569],
+          [-47.8181,-21.1571],
+          [-47.8183,-21.1573],
+          [-47.8186,-21.1572],
+          [-47.8189,-21.157],
+          [-47.8189,-21.1567],
+          [-47.8189,-21.1567],
+          [-47.8187,-21.1565]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C16",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "504",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8203,-21.1552],
+          [-47.8201,-21.155],
+          [-47.8198,-21.1552],
+          [-47.8195,-21.1553],
+          [-47.8195,-21.1556],
+          [-47.8197,-21.1558],
+          [-47.82,-21.1561],
+          [-47.8202,-21.1559],
+          [-47.8205,-21.1557],
+          [-47.8205,-21.1555],
+          [-47.8205,-21.1555],
+          [-47.8203,-21.1552]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C15",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "505",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8219,-21.154],
+          [-47.8217,-21.1538],
+          [-47.8214,-21.1539],
+          [-47.8211,-21.1541],
+          [-47.8211,-21.1543],
+          [-47.8213,-21.1546],
+          [-47.8216,-21.1548],
+          [-47.8219,-21.1546],
+          [-47.8221,-21.1544],
+          [-47.8221,-21.1542],
+          [-47.8221,-21.1542],
+          [-47.8219,-21.154]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C14",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "506",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8235,-21.1527],
+          [-47.8233,-21.1525],
+          [-47.823,-21.1526],
+          [-47.8228,-21.1528],
+          [-47.8227,-21.1531],
+          [-47.823,-21.1533],
+          [-47.8232,-21.1535],
+          [-47.8235,-21.1534],
+          [-47.8237,-21.1532],
+          [-47.8238,-21.1529],
+          [-47.8238,-21.1529],
+          [-47.8235,-21.1527]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C13",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "507",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8251,-21.1515],
+          [-47.8249,-21.1513],
+          [-47.8246,-21.1514],
+          [-47.8243,-21.1516],
+          [-47.8243,-21.1518],
+          [-47.8245,-21.1521],
+          [-47.8248,-21.1523],
+          [-47.8251,-21.1521],
+          [-47.8253,-21.152],
+          [-47.8253,-21.1517],
+          [-47.8253,-21.1517],
+          [-47.8251,-21.1515]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C12",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "511",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8312,-21.1465],
+          [-47.831,-21.1463],
+          [-47.8307,-21.1465],
+          [-47.8304,-21.1467],
+          [-47.8303,-21.147],
+          [-47.8306,-21.1473],
+          [-47.8309,-21.1474],
+          [-47.8312,-21.1472],
+          [-47.8314,-21.147],
+          [-47.8315,-21.1467],
+          [-47.8315,-21.1467],
+          [-47.8312,-21.1465]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C0F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "521",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8199,-21.1741],
+          [-47.8196,-21.1741],
+          [-47.8194,-21.1743],
+          [-47.8193,-21.1746],
+          [-47.8196,-21.1749],
+          [-47.8199,-21.1749],
+          [-47.8203,-21.1749],
+          [-47.8205,-21.1747],
+          [-47.8205,-21.1744],
+          [-47.8203,-21.1741],
+          [-47.8203,-21.1741],
+          [-47.8199,-21.1741]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C03",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "081-082",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8141,-21.1713],
+          [-47.815,-21.1723],
+          [-47.8149,-21.1727],
+          [-47.8145,-21.1727],
+          [-47.8139,-21.172],
+          [-47.8136,-21.1717],
+          [-47.8137,-21.1713],
+          [-47.8141,-21.1713],
+          [-47.8141,-21.1713]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C02",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "025-068",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.813,-21.1762],
+          [-47.8127,-21.1759],
+          [-47.8125,-21.1756],
+          [-47.8122,-21.1753],
+          [-47.8123,-21.175],
+          [-47.8127,-21.1749],
+          [-47.8129,-21.1752],
+          [-47.8132,-21.1755],
+          [-47.8135,-21.1758],
+          [-47.8134,-21.1762],
+          [-47.8134,-21.1762],
+          [-47.813,-21.1762]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6C00",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "122-123",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.806,-21.1736],
+          [-47.8057,-21.1735],
+          [-47.8055,-21.1733],
+          [-47.8053,-21.173],
+          [-47.8054,-21.1727],
+          [-47.8057,-21.1726],
+          [-47.806,-21.1727],
+          [-47.8062,-21.173],
+          [-47.8064,-21.1732],
+          [-47.8063,-21.1735],
+          [-47.8063,-21.1735],
+          [-47.806,-21.1736]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BFF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "124-125",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8067,-21.1731],
+          [-47.8064,-21.173],
+          [-47.8062,-21.1728],
+          [-47.8061,-21.1725],
+          [-47.8061,-21.1722],
+          [-47.8064,-21.1721],
+          [-47.8067,-21.1722],
+          [-47.8069,-21.1724],
+          [-47.8071,-21.1727],
+          [-47.807,-21.173],
+          [-47.807,-21.173],
+          [-47.8067,-21.1731]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BFC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "132-133",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8092,-21.1702],
+          [-47.8098,-21.1697],
+          [-47.81,-21.17],
+          [-47.8102,-21.1703],
+          [-47.8101,-21.1705],
+          [-47.8101,-21.1705],
+          [-47.8098,-21.1707],
+          [-47.8095,-21.1706],
+          [-47.8093,-21.1704],
+          [-47.8092,-21.1702],
+          [-47.8092,-21.1702]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BFB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "258-259",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8073,-21.1694],
+          [-47.8074,-21.1697],
+          [-47.808,-21.1704],
+          [-47.8083,-21.1704],
+          [-47.8086,-21.1701],
+          [-47.8085,-21.1698],
+          [-47.8083,-21.1695],
+          [-47.808,-21.1691],
+          [-47.8076,-21.1691],
+          [-47.8076,-21.1691],
+          [-47.8073,-21.1694]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BFA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "075-076",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8138,-21.173],
+          [-47.8135,-21.173],
+          [-47.8133,-21.1731],
+          [-47.8131,-21.1733],
+          [-47.813,-21.1735],
+          [-47.8132,-21.1737],
+          [-47.8134,-21.1737],
+          [-47.8136,-21.1736],
+          [-47.8139,-21.1735],
+          [-47.8139,-21.1732],
+          [-47.8139,-21.1732],
+          [-47.8138,-21.173]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "073-074",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8136,-21.1743],
+          [-47.8136,-21.1741],
+          [-47.8139,-21.1739],
+          [-47.8141,-21.1738],
+          [-47.8143,-21.1739],
+          [-47.8145,-21.1741],
+          [-47.8144,-21.1743],
+          [-47.8142,-21.1745],
+          [-47.814,-21.1746],
+          [-47.8137,-21.1745],
+          [-47.8137,-21.1745],
+          [-47.8136,-21.1743]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "079-080",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8122,-21.1714],
+          [-47.8125,-21.1712],
+          [-47.8128,-21.1713],
+          [-47.813,-21.1715],
+          [-47.813,-21.1718],
+          [-47.8127,-21.172],
+          [-47.8124,-21.1721],
+          [-47.8121,-21.1721],
+          [-47.8119,-21.1718],
+          [-47.812,-21.1716],
+          [-47.812,-21.1716],
+          [-47.8122,-21.1714]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF7",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "077-078",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8127,-21.1722],
+          [-47.813,-21.172],
+          [-47.8133,-21.1721],
+          [-47.8135,-21.1724],
+          [-47.8134,-21.1726],
+          [-47.8132,-21.1728],
+          [-47.8129,-21.173],
+          [-47.8126,-21.1729],
+          [-47.8125,-21.1727],
+          [-47.8125,-21.1724],
+          [-47.8125,-21.1724],
+          [-47.8127,-21.1722]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "034-035-036-037-038",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8152,-21.1762],
+          [-47.8151,-21.176],
+          [-47.8149,-21.1758],
+          [-47.8146,-21.1756],
+          [-47.8145,-21.1756],
+          [-47.8143,-21.1758],
+          [-47.8141,-21.1759],
+          [-47.8142,-21.1762],
+          [-47.8148,-21.177],
+          [-47.8151,-21.177],
+          [-47.8153,-21.1769],
+          [-47.8154,-21.1767],
+          [-47.8154,-21.1767],
+          [-47.8152,-21.1762]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF5",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "032-033-038",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8155,-21.1754],
+          [-47.8154,-21.1753],
+          [-47.8152,-21.1754],
+          [-47.8149,-21.1755],
+          [-47.8148,-21.1756],
+          [-47.8152,-21.1762],
+          [-47.8153,-21.1765],
+          [-47.8155,-21.1767],
+          [-47.8158,-21.1766],
+          [-47.8159,-21.1764],
+          [-47.8161,-21.1761],
+          [-47.816,-21.1759],
+          [-47.8158,-21.1757],
+          [-47.8155,-21.1754]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF4",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "065-066-067",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8105,-21.173],
+          [-47.8108,-21.1728],
+          [-47.8109,-21.1728],
+          [-47.8112,-21.1731],
+          [-47.8115,-21.1734],
+          [-47.8123,-21.1744],
+          [-47.8123,-21.1745],
+          [-47.812,-21.1748],
+          [-47.8119,-21.1748],
+          [-47.8105,-21.1731],
+          [-47.8105,-21.173]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "069-070-071-072",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8129,-21.1738],
+          [-47.8132,-21.1741],
+          [-47.8135,-21.1746],
+          [-47.8134,-21.175],
+          [-47.8129,-21.1746],
+          [-47.8112,-21.1726],
+          [-47.8114,-21.1722],
+          [-47.8118,-21.1724],
+          [-47.812,-21.1728],
+          [-47.812,-21.1728],
+          [-47.8129,-21.1738]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "026-027-028-029-030",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8137,-21.1754],
+          [-47.8136,-21.1751],
+          [-47.8138,-21.1749],
+          [-47.814,-21.1747],
+          [-47.8143,-21.1745],
+          [-47.8146,-21.1746],
+          [-47.8149,-21.1747],
+          [-47.8152,-21.1747],
+          [-47.8155,-21.1748],
+          [-47.8155,-21.1751],
+          [-47.8153,-21.1753],
+          [-47.815,-21.1754],
+          [-47.8147,-21.1753],
+          [-47.8144,-21.1755],
+          [-47.8142,-21.1756],
+          [-47.8139,-21.1756],
+          [-47.8139,-21.1756],
+          [-47.8137,-21.1754]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF1",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "060-061-062-063",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8093,-21.1725],
+          [-47.8089,-21.1728],
+          [-47.8089,-21.1729],
+          [-47.8093,-21.1735],
+          [-47.8093,-21.1736],
+          [-47.8089,-21.1741],
+          [-47.8089,-21.1742],
+          [-47.8092,-21.1745],
+          [-47.8093,-21.1745],
+          [-47.8098,-21.1741],
+          [-47.81,-21.1741],
+          [-47.8105,-21.1747],
+          [-47.8106,-21.1747],
+          [-47.811,-21.1744],
+          [-47.811,-21.1743],
+          [-47.8094,-21.1725],
+          [-47.8093,-21.1725]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BF0",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "039-040-041",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8128,-21.1777],
+          [-47.8126,-21.1779],
+          [-47.8122,-21.1779],
+          [-47.812,-21.1777],
+          [-47.8121,-21.1774],
+          [-47.8124,-21.1772],
+          [-47.8135,-21.1764],
+          [-47.8138,-21.1764],
+          [-47.814,-21.1766],
+          [-47.8139,-21.1769],
+          [-47.8139,-21.1769],
+          [-47.8128,-21.1777]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BEF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "022-023-054",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8118,-21.1766],
+          [-47.8115,-21.1768],
+          [-47.8112,-21.177],
+          [-47.8109,-21.1769],
+          [-47.8106,-21.1766],
+          [-47.8103,-21.1766],
+          [-47.81,-21.1768],
+          [-47.81,-21.1771],
+          [-47.8103,-21.1774],
+          [-47.8105,-21.1776],
+          [-47.8108,-21.1779],
+          [-47.8111,-21.1778],
+          [-47.812,-21.1772],
+          [-47.8121,-21.1769],
+          [-47.8118,-21.1766]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BEE",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "020-021-055",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8098,-21.1773],
+          [-47.8099,-21.1776],
+          [-47.8095,-21.1778],
+          [-47.8092,-21.1776],
+          [-47.8088,-21.1771],
+          [-47.8086,-21.1768],
+          [-47.8088,-21.1765],
+          [-47.8091,-21.1763],
+          [-47.8094,-21.1761],
+          [-47.8097,-21.1759],
+          [-47.81,-21.1759],
+          [-47.8101,-21.1762],
+          [-47.8099,-21.1765],
+          [-47.8096,-21.1767],
+          [-47.8096,-21.177],
+          [-47.8096,-21.177],
+          [-47.8098,-21.1773]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BED",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "024-058-059",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8124,-21.1767],
+          [-47.8121,-21.1765],
+          [-47.8112,-21.1754],
+          [-47.8109,-21.1751],
+          [-47.811,-21.1748],
+          [-47.8114,-21.1748],
+          [-47.8116,-21.175],
+          [-47.8126,-21.1761],
+          [-47.8128,-21.1764],
+          [-47.8127,-21.1767],
+          [-47.8127,-21.1767],
+          [-47.8124,-21.1767]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BEC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "056-057",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8112,-21.1766],
+          [-47.8109,-21.1764],
+          [-47.8104,-21.1758],
+          [-47.8103,-21.1754],
+          [-47.8107,-21.1753],
+          [-47.811,-21.1755],
+          [-47.8115,-21.1761],
+          [-47.8115,-21.1764],
+          [-47.8115,-21.1764],
+          [-47.8112,-21.1766]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BEB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "110-111-112",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8051,-21.18],
+          [-47.8047,-21.1796],
+          [-47.804,-21.1788],
+          [-47.8036,-21.1784],
+          [-47.8038,-21.178],
+          [-47.8043,-21.1784],
+          [-47.805,-21.1792],
+          [-47.8054,-21.1796],
+          [-47.8051,-21.18]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BEA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "010-011-098",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8103,-21.1818],
+          [-47.8109,-21.1815],
+          [-47.8115,-21.1811],
+          [-47.8114,-21.1807],
+          [-47.8111,-21.1803],
+          [-47.8107,-21.1799],
+          [-47.8102,-21.1801],
+          [-47.8106,-21.1806],
+          [-47.8106,-21.1811],
+          [-47.8101,-21.1815],
+          [-47.8103,-21.1818]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "001-002",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8106,-21.1782],
+          [-47.8103,-21.1779],
+          [-47.8099,-21.1781],
+          [-47.8099,-21.1784],
+          [-47.8104,-21.1789],
+          [-47.8107,-21.1792],
+          [-47.8111,-21.179],
+          [-47.811,-21.1787],
+          [-47.811,-21.1787],
+          [-47.8106,-21.1782]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "003-004-005",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8127,-21.1813],
+          [-47.8122,-21.181],
+          [-47.8115,-21.1801],
+          [-47.8111,-21.1796],
+          [-47.8113,-21.1793],
+          [-47.8118,-21.1797],
+          [-47.8125,-21.1805],
+          [-47.813,-21.181],
+          [-47.8127,-21.1813]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE7",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "012-013",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8098,-21.1787],
+          [-47.8095,-21.1785],
+          [-47.8091,-21.1787],
+          [-47.8092,-21.179],
+          [-47.8097,-21.1796],
+          [-47.81,-21.1798],
+          [-47.8103,-21.1796],
+          [-47.8103,-21.1793],
+          [-47.8103,-21.1793],
+          [-47.8098,-21.1787]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "113-114",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8064,-21.1766],
+          [-47.8063,-21.1769],
+          [-47.8057,-21.1773],
+          [-47.8054,-21.1775],
+          [-47.8051,-21.1772],
+          [-47.8052,-21.1769],
+          [-47.8055,-21.1767],
+          [-47.8058,-21.1764],
+          [-47.8062,-21.1763],
+          [-47.8064,-21.1766],
+          [-47.8064,-21.1766]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE5",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "018-019",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8083,-21.1764],
+          [-47.808,-21.1761],
+          [-47.8077,-21.1758],
+          [-47.8074,-21.1755],
+          [-47.8075,-21.1751],
+          [-47.8079,-21.1751],
+          [-47.8082,-21.1753],
+          [-47.8084,-21.1756],
+          [-47.8087,-21.1759],
+          [-47.8086,-21.1763],
+          [-47.8086,-21.1763],
+          [-47.8083,-21.1764]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE4",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "052-053-107",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8085,-21.1791],
+          [-47.8082,-21.1793],
+          [-47.8078,-21.1794],
+          [-47.8076,-21.1791],
+          [-47.8073,-21.1789],
+          [-47.807,-21.1791],
+          [-47.807,-21.1794],
+          [-47.8076,-21.1802],
+          [-47.8079,-21.1802],
+          [-47.8088,-21.1796],
+          [-47.809,-21.1793],
+          [-47.8088,-21.1791],
+          [-47.8085,-21.1791]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "014-015-105-106",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8071,-21.1778],
+          [-47.8069,-21.1781],
+          [-47.8072,-21.1784],
+          [-47.8077,-21.1789],
+          [-47.8081,-21.1789],
+          [-47.8087,-21.1785],
+          [-47.809,-21.1782],
+          [-47.8091,-21.1779],
+          [-47.8084,-21.177],
+          [-47.808,-21.1771],
+          [-47.8077,-21.1773],
+          [-47.8077,-21.1773],
+          [-47.8071,-21.1778]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "016-017-115",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.807,-21.1765],
+          [-47.8068,-21.1768],
+          [-47.8065,-21.1771],
+          [-47.8064,-21.1774],
+          [-47.8067,-21.1777],
+          [-47.807,-21.1775],
+          [-47.8076,-21.177],
+          [-47.8079,-21.1767],
+          [-47.8078,-21.1764],
+          [-47.8073,-21.1758],
+          [-47.8069,-21.1756],
+          [-47.8066,-21.1759],
+          [-47.8064,-21.1762],
+          [-47.8066,-21.1765],
+          [-47.807,-21.1765]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE1",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "100-101-102",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8086,-21.1833],
+          [-47.8083,-21.1835],
+          [-47.8079,-21.1834],
+          [-47.8077,-21.1831],
+          [-47.8074,-21.1829],
+          [-47.8071,-21.1831],
+          [-47.8068,-21.1833],
+          [-47.8064,-21.1833],
+          [-47.8065,-21.183],
+          [-47.8068,-21.1827],
+          [-47.8071,-21.1825],
+          [-47.8074,-21.1823],
+          [-47.8078,-21.1821],
+          [-47.8081,-21.1824],
+          [-47.8085,-21.1829],
+          [-47.8086,-21.1833],
+          [-47.8086,-21.1833]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BE0",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "108-109",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8054,-21.1799],
+          [-47.8057,-21.18],
+          [-47.8059,-21.1799],
+          [-47.8063,-21.1796],
+          [-47.8066,-21.1796],
+          [-47.8067,-21.1798],
+          [-47.8066,-21.18],
+          [-47.8057,-21.1806],
+          [-47.8055,-21.1806],
+          [-47.8053,-21.1804],
+          [-47.8051,-21.1802],
+          [-47.8052,-21.18],
+          [-47.8052,-21.18],
+          [-47.8054,-21.1799]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BDF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "095-096-097",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8091,-21.1841],
+          [-47.8088,-21.1843],
+          [-47.8085,-21.184],
+          [-47.8085,-21.1837],
+          [-47.81,-21.1826],
+          [-47.8103,-21.1825],
+          [-47.8106,-21.1827],
+          [-47.8106,-21.183],
+          [-47.8106,-21.183],
+          [-47.8091,-21.1841]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BDE",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "090-091-092",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8116,-21.1833],
+          [-47.8119,-21.1831],
+          [-47.8119,-21.1828],
+          [-47.8116,-21.1827],
+          [-47.8101,-21.1837],
+          [-47.8098,-21.1839],
+          [-47.8099,-21.1842],
+          [-47.8102,-21.1843],
+          [-47.8102,-21.1843],
+          [-47.8116,-21.1833]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BDB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "048-308-309",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8022,-21.1841],
+          [-47.8025,-21.1843],
+          [-47.8028,-21.1841],
+          [-47.8043,-21.1829],
+          [-47.8043,-21.1826],
+          [-47.804,-21.1824],
+          [-47.8037,-21.1826],
+          [-47.8022,-21.1837],
+          [-47.8022,-21.1841]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BDA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "044-045-046",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.808,-21.1814],
+          [-47.8065,-21.1825],
+          [-47.8061,-21.1827],
+          [-47.8058,-21.1824],
+          [-47.8058,-21.1821],
+          [-47.8074,-21.181],
+          [-47.8078,-21.1808],
+          [-47.8081,-21.181],
+          [-47.808,-21.1814],
+          [-47.808,-21.1814]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BD9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "049-050-051",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8058,-21.1818],
+          [-47.8055,-21.182],
+          [-47.8052,-21.1817],
+          [-47.8052,-21.1814],
+          [-47.8068,-21.1803],
+          [-47.8072,-21.1801],
+          [-47.8075,-21.1804],
+          [-47.8074,-21.1807],
+          [-47.8058,-21.1818]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BD6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "006-007",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8144,-21.1828],
+          [-47.8142,-21.1828],
+          [-47.8131,-21.1835],
+          [-47.813,-21.1837],
+          [-47.8131,-21.1839],
+          [-47.8133,-21.1839],
+          [-47.8135,-21.1838],
+          [-47.8137,-21.1836],
+          [-47.8144,-21.1832],
+          [-47.8145,-21.183],
+          [-47.8144,-21.1828],
+          [-47.8144,-21.1828]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BD5",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "401-402",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8083,-21.1899],
+          [-47.808,-21.1897],
+          [-47.8077,-21.1894],
+          [-47.8075,-21.1891],
+          [-47.8075,-21.1887],
+          [-47.8078,-21.1885],
+          [-47.8082,-21.1886],
+          [-47.8085,-21.189],
+          [-47.8087,-21.1893],
+          [-47.8087,-21.1896],
+          [-47.8087,-21.1896],
+          [-47.8083,-21.1899]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BD4",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "087-089",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.808,-21.1878],
+          [-47.8077,-21.1876],
+          [-47.8075,-21.1874],
+          [-47.8073,-21.1871],
+          [-47.8074,-21.1868],
+          [-47.8076,-21.1867],
+          [-47.8079,-21.1869],
+          [-47.8081,-21.1871],
+          [-47.8083,-21.1874],
+          [-47.8082,-21.1877],
+          [-47.8082,-21.1877],
+          [-47.808,-21.1878]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BD1",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "085-086",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8098,-21.1865],
+          [-47.8095,-21.1867],
+          [-47.8089,-21.1872],
+          [-47.8086,-21.1872],
+          [-47.8085,-21.1869],
+          [-47.8088,-21.1866],
+          [-47.8094,-21.1862],
+          [-47.8097,-21.1862],
+          [-47.8097,-21.1862],
+          [-47.8098,-21.1865]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BCE",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "403-404",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8094,-21.1912],
+          [-47.809,-21.191],
+          [-47.8088,-21.1907],
+          [-47.8086,-21.1904],
+          [-47.8087,-21.19],
+          [-47.8091,-21.1899],
+          [-47.8094,-21.1901],
+          [-47.8096,-21.1904],
+          [-47.8098,-21.1907],
+          [-47.8097,-21.191],
+          [-47.8097,-21.191],
+          [-47.8094,-21.1912]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BCD",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "405-406",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8104,-21.1923],
+          [-47.8101,-21.1923],
+          [-47.8099,-21.192],
+          [-47.8097,-21.1918],
+          [-47.8098,-21.1915],
+          [-47.8101,-21.1913],
+          [-47.8104,-21.1913],
+          [-47.8106,-21.1915],
+          [-47.8108,-21.1918],
+          [-47.8107,-21.1921],
+          [-47.8107,-21.1921],
+          [-47.8104,-21.1923]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BCC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "425-428-453-454",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8075,-21.1967],
+          [-47.8071,-21.1965],
+          [-47.807,-21.1961],
+          [-47.807,-21.1956],
+          [-47.8072,-21.1953],
+          [-47.8077,-21.1953],
+          [-47.8081,-21.1954],
+          [-47.8082,-21.1959],
+          [-47.8082,-21.1963],
+          [-47.808,-21.1966],
+          [-47.808,-21.1966],
+          [-47.8075,-21.1967]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BCA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "407-408",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8122,-21.1947],
+          [-47.8119,-21.1945],
+          [-47.8116,-21.1942],
+          [-47.8113,-21.1938],
+          [-47.8114,-21.1935],
+          [-47.8118,-21.1933],
+          [-47.8122,-21.1935],
+          [-47.8125,-21.1939],
+          [-47.8127,-21.1942],
+          [-47.8126,-21.1946],
+          [-47.8126,-21.1946],
+          [-47.8122,-21.1947]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BC6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "438-439",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8107,-21.2056],
+          [-47.8105,-21.2058],
+          [-47.8106,-21.206],
+          [-47.8107,-21.2062],
+          [-47.811,-21.2063],
+          [-47.8113,-21.2062],
+          [-47.8115,-21.206],
+          [-47.8114,-21.2057],
+          [-47.8113,-21.2055],
+          [-47.811,-21.2055],
+          [-47.811,-21.2055],
+          [-47.8107,-21.2056]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BC2",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "410-411-412-413",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.817,-21.1982],
+          [-47.8175,-21.1988],
+          [-47.8175,-21.1995],
+          [-47.8172,-21.2001],
+          [-47.8165,-21.2004],
+          [-47.8157,-21.2002],
+          [-47.8152,-21.1997],
+          [-47.8151,-21.199],
+          [-47.8155,-21.1983],
+          [-47.8162,-21.1981],
+          [-47.8162,-21.1981],
+          [-47.817,-21.1982]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BBF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "807",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8261,-21.214],
+          [-47.826,-21.2143],
+          [-47.8258,-21.2144],
+          [-47.8255,-21.2145],
+          [-47.8252,-21.2143],
+          [-47.8251,-21.214],
+          [-47.8251,-21.2138],
+          [-47.8254,-21.2136],
+          [-47.8257,-21.2135],
+          [-47.826,-21.2137],
+          [-47.826,-21.2137],
+          [-47.8261,-21.214]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BB9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "444",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8133,-21.2082],
+          [-47.8135,-21.2081],
+          [-47.8137,-21.2081],
+          [-47.8139,-21.2083],
+          [-47.814,-21.2084],
+          [-47.814,-21.2086],
+          [-47.8138,-21.2088],
+          [-47.8136,-21.2088],
+          [-47.8134,-21.2086],
+          [-47.8133,-21.2084],
+          [-47.8133,-21.2082]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BB1",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "355-360",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7797,-21.2026],
+          [-47.78,-21.2027],
+          [-47.7801,-21.2031],
+          [-47.7802,-21.2034],
+          [-47.78,-21.2037],
+          [-47.7796,-21.2038],
+          [-47.7793,-21.2036],
+          [-47.7792,-21.2033],
+          [-47.7792,-21.203],
+          [-47.7794,-21.2027],
+          [-47.7797,-21.2026],
+          [-47.7797,-21.2026]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BB0",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "356-357-358-359",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7819,-21.2022],
+          [-47.7823,-21.2027],
+          [-47.7824,-21.2033],
+          [-47.782,-21.2038],
+          [-47.7814,-21.204],
+          [-47.7807,-21.2039],
+          [-47.7803,-21.2034],
+          [-47.7803,-21.2028],
+          [-47.7806,-21.2023],
+          [-47.7812,-21.202],
+          [-47.7812,-21.202],
+          [-47.7819,-21.2022]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAF",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "361-362",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7799,-21.1998],
+          [-47.7796,-21.1998],
+          [-47.7794,-21.1996],
+          [-47.7792,-21.1993],
+          [-47.7794,-21.199],
+          [-47.7797,-21.1989],
+          [-47.7801,-21.1988],
+          [-47.7803,-21.1991],
+          [-47.7804,-21.1994],
+          [-47.7802,-21.1997],
+          [-47.7802,-21.1997],
+          [-47.7799,-21.1998]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAE",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "338-339",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7785,-21.1921],
+          [-47.7787,-21.1924],
+          [-47.7785,-21.1927],
+          [-47.7781,-21.1927],
+          [-47.7779,-21.1925],
+          [-47.7776,-21.1922],
+          [-47.7775,-21.1919],
+          [-47.7777,-21.1916],
+          [-47.778,-21.1916],
+          [-47.7783,-21.1918],
+          [-47.7785,-21.1921],
+          [-47.7785,-21.1921]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAD",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "340-341-342",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.777,-21.1928],
+          [-47.7774,-21.1934],
+          [-47.7773,-21.1941],
+          [-47.7769,-21.1946],
+          [-47.7762,-21.1947],
+          [-47.7755,-21.1945],
+          [-47.7751,-21.1939],
+          [-47.7752,-21.1932],
+          [-47.7756,-21.1927],
+          [-47.7764,-21.1925],
+          [-47.7764,-21.1925],
+          [-47.777,-21.1928]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAC",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "363-364",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7779,-21.1957],
+          [-47.7775,-21.1957],
+          [-47.7773,-21.1955],
+          [-47.7772,-21.1952],
+          [-47.7774,-21.1949],
+          [-47.7777,-21.1947],
+          [-47.778,-21.1947],
+          [-47.7782,-21.195],
+          [-47.7784,-21.1953],
+          [-47.7782,-21.1955],
+          [-47.7782,-21.1955],
+          [-47.7779,-21.1957]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAB",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "353-354",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7693,-21.2063],
+          [-47.7691,-21.2066],
+          [-47.7692,-21.2069],
+          [-47.7694,-21.2072],
+          [-47.7697,-21.2073],
+          [-47.77,-21.2072],
+          [-47.7703,-21.2069],
+          [-47.7701,-21.2066],
+          [-47.77,-21.2063],
+          [-47.7696,-21.2062],
+          [-47.7696,-21.2062],
+          [-47.7693,-21.2063]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BAA",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "351-352",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7685,-21.204],
+          [-47.7683,-21.2043],
+          [-47.7684,-21.2046],
+          [-47.7686,-21.2049],
+          [-47.7689,-21.2049],
+          [-47.7693,-21.2048],
+          [-47.7695,-21.2045],
+          [-47.7693,-21.2042],
+          [-47.7692,-21.2039],
+          [-47.7689,-21.2039],
+          [-47.7689,-21.2039],
+          [-47.7685,-21.204]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA9",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "349-350",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7678,-21.2026],
+          [-47.7676,-21.2029],
+          [-47.7677,-21.2032],
+          [-47.7679,-21.2035],
+          [-47.7682,-21.2035],
+          [-47.7685,-21.2034],
+          [-47.7687,-21.2032],
+          [-47.7686,-21.2028],
+          [-47.7684,-21.2025],
+          [-47.7681,-21.2025],
+          [-47.7681,-21.2025],
+          [-47.7678,-21.2026]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA8",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "346-347",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7665,-21.2006],
+          [-47.7664,-21.2003],
+          [-47.7661,-21.2001],
+          [-47.7657,-21.2002],
+          [-47.7656,-21.2005],
+          [-47.7657,-21.2009],
+          [-47.7658,-21.2012],
+          [-47.7661,-21.2014],
+          [-47.7665,-21.2013],
+          [-47.7666,-21.201],
+          [-47.7666,-21.201],
+          [-47.7665,-21.2006]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA7",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "343-344-345",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7676,-21.1999],
+          [-47.7676,-21.2004],
+          [-47.7676,-21.2008],
+          [-47.7671,-21.201],
+          [-47.7667,-21.2008],
+          [-47.7666,-21.2004],
+          [-47.7666,-21.1999],
+          [-47.7669,-21.1995],
+          [-47.7672,-21.1991],
+          [-47.7676,-21.1993],
+          [-47.7676,-21.1993],
+          [-47.7676,-21.1999]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA6",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "348",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7683,-21.2017],
+          [-47.7681,-21.2015],
+          [-47.7678,-21.2016],
+          [-47.7676,-21.2017],
+          [-47.7675,-21.2019],
+          [-47.7676,-21.2022],
+          [-47.7678,-21.2024],
+          [-47.7681,-21.2023],
+          [-47.7683,-21.2022],
+          [-47.7684,-21.202],
+          [-47.7684,-21.202],
+          [-47.7683,-21.2017]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA5",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "331-332",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7867,-21.1809],
+          [-47.7862,-21.1808],
+          [-47.786,-21.1812],
+          [-47.7857,-21.1817],
+          [-47.7858,-21.1821],
+          [-47.7863,-21.1823],
+          [-47.7868,-21.1824],
+          [-47.7871,-21.182],
+          [-47.7873,-21.1816],
+          [-47.7872,-21.1811],
+          [-47.7872,-21.1811],
+          [-47.7867,-21.1809]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA4",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "333",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7859,-21.1828],
+          [-47.7856,-21.1829],
+          [-47.7855,-21.1833],
+          [-47.7855,-21.1836],
+          [-47.7858,-21.1839],
+          [-47.7862,-21.1839],
+          [-47.7865,-21.1838],
+          [-47.7866,-21.1834],
+          [-47.7866,-21.1831],
+          [-47.7863,-21.1828],
+          [-47.7863,-21.1828],
+          [-47.7859,-21.1828]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6BA3",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "334-335-336-337",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7842,-21.1883],
+          [-47.7836,-21.1875],
+          [-47.7835,-21.1866],
+          [-47.7841,-21.1858],
+          [-47.785,-21.1854],
+          [-47.786,-21.1857],
+          [-47.7867,-21.1864],
+          [-47.7867,-21.1874],
+          [-47.7862,-21.1882],
+          [-47.7852,-21.1885],
+          [-47.7852,-21.1885],
+          [-47.7842,-21.1883]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "320-321-322",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7926,-21.1753],
+          [-47.7926,-21.1749],
+          [-47.7934,-21.1743],
+          [-47.7939,-21.1743],
+          [-47.7942,-21.1747],
+          [-47.7942,-21.1751],
+          [-47.7933,-21.1757],
+          [-47.7929,-21.1757],
+          [-47.7929,-21.1757],
+          [-47.7926,-21.1753]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "323-324",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7918,-21.1761],
+          [-47.7916,-21.1758],
+          [-47.7918,-21.1755],
+          [-47.7921,-21.1753],
+          [-47.7924,-21.1754],
+          [-47.7926,-21.1757],
+          [-47.7928,-21.176],
+          [-47.7927,-21.1762],
+          [-47.7924,-21.1765],
+          [-47.792,-21.1764],
+          [-47.792,-21.1764],
+          [-47.7918,-21.1761]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "327-328",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7907,-21.1766],
+          [-47.7902,-21.1766],
+          [-47.7894,-21.1773],
+          [-47.7893,-21.1778],
+          [-47.7896,-21.1782],
+          [-47.7901,-21.1782],
+          [-47.791,-21.1775],
+          [-47.7911,-21.177],
+          [-47.7911,-21.177],
+          [-47.7907,-21.1766]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "329-330",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7892,-21.178],
+          [-47.7888,-21.178],
+          [-47.788,-21.1785],
+          [-47.7879,-21.1789],
+          [-47.7883,-21.1793],
+          [-47.7887,-21.1793],
+          [-47.7894,-21.1787],
+          [-47.7895,-21.1783],
+          [-47.7895,-21.1783],
+          [-47.7892,-21.178]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "325-326",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7909,-21.1767],
+          [-47.7908,-21.1764],
+          [-47.791,-21.1761],
+          [-47.7913,-21.1759],
+          [-47.7916,-21.176],
+          [-47.7918,-21.1763],
+          [-47.792,-21.1766],
+          [-47.7918,-21.1769],
+          [-47.7915,-21.177],
+          [-47.7911,-21.177],
+          [-47.7911,-21.177],
+          [-47.7909,-21.1767]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B9A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "209-210-211-212-959-960",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7952,-21.1735],
+          [-47.7955,-21.1738],
+          [-47.7956,-21.1742],
+          [-47.7954,-21.1746],
+          [-47.7949,-21.1748],
+          [-47.7945,-21.1747],
+          [-47.7941,-21.1744],
+          [-47.7941,-21.174],
+          [-47.7943,-21.1736],
+          [-47.7947,-21.1734],
+          [-47.7947,-21.1734],
+          [-47.7952,-21.1735]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B99",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "207-208",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7981,-21.1712],
+          [-47.7978,-21.1714],
+          [-47.7979,-21.1719],
+          [-47.7982,-21.1722],
+          [-47.7987,-21.1721],
+          [-47.7992,-21.172],
+          [-47.7995,-21.1717],
+          [-47.7994,-21.1713],
+          [-47.7991,-21.171],
+          [-47.7991,-21.171],
+          [-47.7981,-21.1712]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B98",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "218-219-719",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7887,-21.1666],
+          [-47.7888,-21.1671],
+          [-47.789,-21.1676],
+          [-47.7894,-21.1681],
+          [-47.7898,-21.1684],
+          [-47.7903,-21.1681],
+          [-47.7903,-21.1676],
+          [-47.7897,-21.1667],
+          [-47.7893,-21.1664],
+          [-47.7893,-21.1664],
+          [-47.7887,-21.1666]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B97",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "215-216",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7911,-21.1697],
+          [-47.791,-21.17],
+          [-47.7912,-21.1703],
+          [-47.7915,-21.1706],
+          [-47.7919,-21.1706],
+          [-47.7922,-21.1703],
+          [-47.7924,-21.17],
+          [-47.7921,-21.1696],
+          [-47.7918,-21.1694],
+          [-47.7914,-21.1694],
+          [-47.7914,-21.1694],
+          [-47.7911,-21.1697]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B96",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "213-214",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7921,-21.1708],
+          [-47.7922,-21.1711],
+          [-47.7925,-21.1714],
+          [-47.7928,-21.1717],
+          [-47.7932,-21.1716],
+          [-47.7935,-21.1714],
+          [-47.7933,-21.171],
+          [-47.7931,-21.1707],
+          [-47.7928,-21.1704],
+          [-47.7924,-21.1705],
+          [-47.7924,-21.1705],
+          [-47.7921,-21.1708]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B95",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "217",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7944,-21.1692],
+          [-47.7941,-21.169],
+          [-47.7937,-21.1691],
+          [-47.7934,-21.1692],
+          [-47.7933,-21.1695],
+          [-47.7934,-21.1699],
+          [-47.7937,-21.17],
+          [-47.7941,-21.1699],
+          [-47.7944,-21.1698],
+          [-47.7945,-21.1695],
+          [-47.7945,-21.1695],
+          [-47.7944,-21.1692]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B93",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "220-221",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.789,-21.1631],
+          [-47.7888,-21.1635],
+          [-47.789,-21.1639],
+          [-47.7893,-21.1643],
+          [-47.7897,-21.1644],
+          [-47.7902,-21.1641],
+          [-47.7905,-21.1637],
+          [-47.7902,-21.1633],
+          [-47.7899,-21.1629],
+          [-47.7895,-21.1628],
+          [-47.7895,-21.1628],
+          [-47.789,-21.1631]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B92",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "244",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8,-21.1607],
+          [-47.7998,-21.1607],
+          [-47.7996,-21.1606],
+          [-47.7995,-21.1604],
+          [-47.7996,-21.1602],
+          [-47.7998,-21.16],
+          [-47.8,-21.16],
+          [-47.8002,-21.1601],
+          [-47.8003,-21.1603],
+          [-47.8002,-21.1605],
+          [-47.8002,-21.1605],
+          [-47.8,-21.1607]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B91",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "235",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7998,-21.162],
+          [-47.7995,-21.162],
+          [-47.7994,-21.1619],
+          [-47.7993,-21.1617],
+          [-47.7994,-21.1615],
+          [-47.7996,-21.1614],
+          [-47.7998,-21.1613],
+          [-47.8,-21.1615],
+          [-47.8,-21.1617],
+          [-47.7999,-21.1619],
+          [-47.7999,-21.1619],
+          [-47.7998,-21.162]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B90",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "243",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7988,-21.1592],
+          [-47.7985,-21.1593],
+          [-47.7984,-21.1591],
+          [-47.7983,-21.1589],
+          [-47.7984,-21.1587],
+          [-47.7986,-21.1586],
+          [-47.7988,-21.1586],
+          [-47.799,-21.1587],
+          [-47.799,-21.1589],
+          [-47.799,-21.1591],
+          [-47.799,-21.1591],
+          [-47.7988,-21.1592]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B8F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "236",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.797,-21.1588],
+          [-47.7968,-21.1588],
+          [-47.7966,-21.1587],
+          [-47.7965,-21.1585],
+          [-47.7966,-21.1583],
+          [-47.7968,-21.1581],
+          [-47.797,-21.1581],
+          [-47.7972,-21.1582],
+          [-47.7973,-21.1584],
+          [-47.7972,-21.1586],
+          [-47.7972,-21.1586],
+          [-47.797,-21.1588]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B8C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "262-263",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7955,-21.1557],
+          [-47.7952,-21.1555],
+          [-47.795,-21.1552],
+          [-47.7947,-21.1549],
+          [-47.7947,-21.1546],
+          [-47.7951,-21.1544],
+          [-47.7954,-21.1546],
+          [-47.7957,-21.1549],
+          [-47.7959,-21.1552],
+          [-47.7959,-21.1556],
+          [-47.7959,-21.1556],
+          [-47.7955,-21.1557]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B8A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "271-272-273",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.788,-21.1436],
+          [-47.7878,-21.1433],
+          [-47.7876,-21.1429],
+          [-47.7874,-21.1426],
+          [-47.7876,-21.1422],
+          [-47.788,-21.1421],
+          [-47.7883,-21.1424],
+          [-47.7884,-21.1428],
+          [-47.7886,-21.1432],
+          [-47.7884,-21.1435],
+          [-47.7884,-21.1435],
+          [-47.788,-21.1436]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B89",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "270",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7889,-21.144],
+          [-47.7888,-21.1438],
+          [-47.7885,-21.1438],
+          [-47.7883,-21.144],
+          [-47.7883,-21.1442],
+          [-47.7884,-21.1445],
+          [-47.7885,-21.1446],
+          [-47.7888,-21.1446],
+          [-47.789,-21.1445],
+          [-47.789,-21.1442],
+          [-47.789,-21.1442],
+          [-47.7889,-21.144]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B87",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "264",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7922,-21.1514],
+          [-47.7919,-21.1514],
+          [-47.7917,-21.1512],
+          [-47.7915,-21.1509],
+          [-47.7917,-21.1507],
+          [-47.792,-21.1505],
+          [-47.7923,-21.1505],
+          [-47.7924,-21.1508],
+          [-47.7926,-21.151],
+          [-47.7924,-21.1513],
+          [-47.7924,-21.1513],
+          [-47.7922,-21.1514]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B86",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "265",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7913,-21.1497],
+          [-47.791,-21.1497],
+          [-47.7908,-21.1495],
+          [-47.7907,-21.1492],
+          [-47.7908,-21.149],
+          [-47.7911,-21.1488],
+          [-47.7914,-21.1488],
+          [-47.7916,-21.1491],
+          [-47.7917,-21.1493],
+          [-47.7916,-21.1496],
+          [-47.7916,-21.1496],
+          [-47.7913,-21.1497]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B85",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "266-267-268-269-280-281",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7904,-21.1456],
+          [-47.791,-21.1461],
+          [-47.7912,-21.1468],
+          [-47.7909,-21.1475],
+          [-47.7903,-21.1479],
+          [-47.7895,-21.1478],
+          [-47.7889,-21.1473],
+          [-47.7887,-21.1466],
+          [-47.789,-21.146],
+          [-47.7896,-21.1456],
+          [-47.7896,-21.1456],
+          [-47.7904,-21.1456]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B82",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "224-725",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7839,-21.1564],
+          [-47.7836,-21.1563],
+          [-47.7835,-21.1561],
+          [-47.7833,-21.156],
+          [-47.7833,-21.1558],
+          [-47.7838,-21.1556],
+          [-47.7839,-21.1556],
+          [-47.7842,-21.156],
+          [-47.7842,-21.1561],
+          [-47.7841,-21.1562],
+          [-47.7841,-21.1562],
+          [-47.7839,-21.1564]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B81",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "275-276",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7502,-21.1322],
+          [-47.7494,-21.1322],
+          [-47.7491,-21.1315],
+          [-47.7494,-21.1309],
+          [-47.7503,-21.131],
+          [-47.752,-21.1311],
+          [-47.7523,-21.1317],
+          [-47.7519,-21.1323],
+          [-47.7519,-21.1323],
+          [-47.7502,-21.1322]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B7D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "152-153-154",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8097,-21.1624],
+          [-47.8085,-21.1611],
+          [-47.8082,-21.1611],
+          [-47.8082,-21.1615],
+          [-47.8085,-21.1618],
+          [-47.8088,-21.1621],
+          [-47.8085,-21.1624],
+          [-47.8082,-21.1627],
+          [-47.8081,-21.1631],
+          [-47.8085,-21.1632],
+          [-47.8089,-21.1629],
+          [-47.8092,-21.1628],
+          [-47.8096,-21.1628],
+          [-47.8097,-21.1624],
+          [-47.8097,-21.1624]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B7C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "155-156-157-158",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8076,-21.1592],
+          [-47.8073,-21.1589],
+          [-47.8075,-21.1586],
+          [-47.808,-21.1587],
+          [-47.8082,-21.159],
+          [-47.8094,-21.1603],
+          [-47.8097,-21.1607],
+          [-47.8094,-21.161],
+          [-47.809,-21.1609],
+          [-47.809,-21.1609],
+          [-47.8076,-21.1592]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B7B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "159-160",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.806,-21.1599],
+          [-47.8059,-21.1602],
+          [-47.8062,-21.1604],
+          [-47.8065,-21.1602],
+          [-47.8071,-21.1598],
+          [-47.8072,-21.1594],
+          [-47.8069,-21.1593],
+          [-47.8066,-21.1595],
+          [-47.806,-21.1599],
+          [-47.806,-21.1599]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B7A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "247-248",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8022,-21.1634],
+          [-47.8018,-21.1632],
+          [-47.8016,-21.1629],
+          [-47.8013,-21.1626],
+          [-47.8014,-21.1623],
+          [-47.8017,-21.1621],
+          [-47.802,-21.1623],
+          [-47.8023,-21.1626],
+          [-47.8026,-21.1629],
+          [-47.8025,-21.1632],
+          [-47.8025,-21.1632],
+          [-47.8022,-21.1634]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B79",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "245-246",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.801,-21.162],
+          [-47.8007,-21.1618],
+          [-47.8004,-21.1616],
+          [-47.8001,-21.1613],
+          [-47.8002,-21.1609],
+          [-47.8005,-21.1607],
+          [-47.8008,-21.1609],
+          [-47.8011,-21.1612],
+          [-47.8014,-21.1615],
+          [-47.8013,-21.1619],
+          [-47.8013,-21.1619],
+          [-47.801,-21.162]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B78",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "233-234",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8013,-21.1641],
+          [-47.801,-21.1639],
+          [-47.8007,-21.1636],
+          [-47.8005,-21.1633],
+          [-47.8005,-21.163],
+          [-47.8009,-21.1628],
+          [-47.8012,-21.163],
+          [-47.8015,-21.1632],
+          [-47.8017,-21.1635],
+          [-47.8017,-21.1639],
+          [-47.8017,-21.1639],
+          [-47.8013,-21.1641]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B77",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "232",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.803,-21.1658],
+          [-47.8028,-21.1659],
+          [-47.8026,-21.1657],
+          [-47.8024,-21.1655],
+          [-47.8024,-21.1652],
+          [-47.8026,-21.1651],
+          [-47.8029,-21.165],
+          [-47.8031,-21.1651],
+          [-47.8033,-21.1653],
+          [-47.8032,-21.1656],
+          [-47.8032,-21.1656],
+          [-47.803,-21.1658]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B76",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "249-250-251",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8036,-21.1651],
+          [-47.8032,-21.1648],
+          [-47.8026,-21.164],
+          [-47.8026,-21.1636],
+          [-47.803,-21.1634],
+          [-47.8034,-21.1638],
+          [-47.804,-21.1645],
+          [-47.804,-21.1649],
+          [-47.804,-21.1649],
+          [-47.8036,-21.1651]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B72",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "256-257",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.807,-21.169],
+          [-47.8066,-21.1687],
+          [-47.8061,-21.1679],
+          [-47.806,-21.1675],
+          [-47.8065,-21.1674],
+          [-47.8068,-21.1677],
+          [-47.8074,-21.1684],
+          [-47.8074,-21.1688],
+          [-47.8074,-21.1688],
+          [-47.807,-21.169]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B71",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "229-230",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8054,-21.1688],
+          [-47.805,-21.1685],
+          [-47.8045,-21.1678],
+          [-47.8044,-21.1674],
+          [-47.8049,-21.1672],
+          [-47.8052,-21.1675],
+          [-47.8058,-21.1682],
+          [-47.8058,-21.1686],
+          [-47.8058,-21.1686],
+          [-47.8054,-21.1688]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B70",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "252-253",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8055,-21.1672],
+          [-47.8051,-21.167],
+          [-47.8046,-21.1663],
+          [-47.8046,-21.166],
+          [-47.805,-21.1658],
+          [-47.8053,-21.166],
+          [-47.8056,-21.1663],
+          [-47.8059,-21.1667],
+          [-47.8058,-21.167],
+          [-47.8058,-21.167],
+          [-47.8055,-21.1672]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "254-255",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8061,-21.1665],
+          [-47.8059,-21.1662],
+          [-47.8057,-21.1659],
+          [-47.8054,-21.1656],
+          [-47.8054,-21.1653],
+          [-47.8058,-21.1653],
+          [-47.8061,-21.1656],
+          [-47.8063,-21.1659],
+          [-47.8065,-21.1661],
+          [-47.8065,-21.1665],
+          [-47.8065,-21.1665],
+          [-47.8061,-21.1665]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "148-149-175-176",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8114,-21.1629],
+          [-47.8111,-21.1628],
+          [-47.8108,-21.1626],
+          [-47.8109,-21.1623],
+          [-47.8113,-21.1619],
+          [-47.8116,-21.1619],
+          [-47.8119,-21.1622],
+          [-47.812,-21.1625],
+          [-47.8114,-21.1629]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6D",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "150-151",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8098,-21.1634],
+          [-47.8107,-21.1645],
+          [-47.8112,-21.1645],
+          [-47.8112,-21.1641],
+          [-47.8102,-21.163],
+          [-47.8098,-21.163],
+          [-47.8098,-21.1634],
+          [-47.8098,-21.1634]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "143-144",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8135,-21.1654],
+          [-47.8132,-21.1656],
+          [-47.8129,-21.1656],
+          [-47.8127,-21.1653],
+          [-47.8128,-21.165],
+          [-47.8131,-21.1648],
+          [-47.8133,-21.1646],
+          [-47.8136,-21.1647],
+          [-47.8138,-21.1649],
+          [-47.8138,-21.1652],
+          [-47.8138,-21.1652],
+          [-47.8135,-21.1654]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "145-177",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8127,-21.1646],
+          [-47.8124,-21.1648],
+          [-47.8121,-21.1648],
+          [-47.8119,-21.1646],
+          [-47.812,-21.1643],
+          [-47.8122,-21.1641],
+          [-47.8125,-21.1639],
+          [-47.8128,-21.1639],
+          [-47.813,-21.1641],
+          [-47.8129,-21.1644],
+          [-47.8129,-21.1644],
+          [-47.8127,-21.1646]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B6A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "146-147",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.812,-21.1639],
+          [-47.8118,-21.164],
+          [-47.8114,-21.164],
+          [-47.8113,-21.1638],
+          [-47.8113,-21.1635],
+          [-47.8116,-21.1633],
+          [-47.8118,-21.1631],
+          [-47.8121,-21.1631],
+          [-47.8123,-21.1634],
+          [-47.8122,-21.1637],
+          [-47.8122,-21.1637],
+          [-47.812,-21.1639]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B69",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "141-142",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8155,-21.1657],
+          [-47.8157,-21.1662],
+          [-47.8157,-21.1667],
+          [-47.8155,-21.1672],
+          [-47.8151,-21.1675],
+          [-47.8145,-21.1676],
+          [-47.8141,-21.1674],
+          [-47.8155,-21.1657],
+          [-47.8155,-21.1657]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B68",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "139-140",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8142,-21.167],
+          [-47.8138,-21.1674],
+          [-47.8135,-21.1669],
+          [-47.8134,-21.1663],
+          [-47.8137,-21.1658],
+          [-47.8141,-21.1655],
+          [-47.8147,-21.1654],
+          [-47.8153,-21.1656],
+          [-47.8153,-21.1656],
+          [-47.8142,-21.167]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B67",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "134-136",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8107,-21.1692],
+          [-47.811,-21.1697],
+          [-47.8111,-21.1697],
+          [-47.8114,-21.1695],
+          [-47.8118,-21.1693],
+          [-47.8119,-21.1692],
+          [-47.8115,-21.1686],
+          [-47.8115,-21.1686],
+          [-47.8107,-21.1692]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B64",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "304-305-306",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7972,-21.1792],
+          [-47.7971,-21.1796],
+          [-47.7974,-21.18],
+          [-47.7978,-21.1799],
+          [-47.7994,-21.179],
+          [-47.7998,-21.1787],
+          [-47.7997,-21.1783],
+          [-47.7994,-21.178],
+          [-47.7991,-21.1779],
+          [-47.7991,-21.1779],
+          [-47.7972,-21.1792]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B63",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "301-302-303",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7977,-21.1785],
+          [-47.7973,-21.1785],
+          [-47.797,-21.1781],
+          [-47.7973,-21.1778],
+          [-47.7976,-21.1775],
+          [-47.7974,-21.1771],
+          [-47.7972,-21.1768],
+          [-47.7972,-21.1764],
+          [-47.7976,-21.1761],
+          [-47.7979,-21.1763],
+          [-47.7988,-21.1774],
+          [-47.7988,-21.1777],
+          [-47.7988,-21.1777],
+          [-47.7977,-21.1785]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B5C",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "047-310",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8035,-21.1839],
+          [-47.8035,-21.1843],
+          [-47.8038,-21.1845],
+          [-47.8042,-21.1842],
+          [-47.8049,-21.1836],
+          [-47.8049,-21.1833],
+          [-47.8045,-21.1832],
+          [-47.8045,-21.1832],
+          [-47.8035,-21.1839]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B5B",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "311-312",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8054,-21.1853],
+          [-47.8053,-21.1857],
+          [-47.8049,-21.1859],
+          [-47.8046,-21.1857],
+          [-47.804,-21.185],
+          [-47.8041,-21.1846],
+          [-47.8045,-21.1844],
+          [-47.8048,-21.1846],
+          [-47.8054,-21.1853],
+          [-47.8054,-21.1853]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B5A",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "093-094",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8093,-21.1843],
+          [-47.8082,-21.1851],
+          [-47.8083,-21.1855],
+          [-47.8087,-21.1854],
+          [-47.8091,-21.1851],
+          [-47.8094,-21.1849],
+          [-47.8098,-21.1846],
+          [-47.8097,-21.1843],
+          [-47.8093,-21.1843]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B59",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "099-103",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8083,-21.1823],
+          [-47.808,-21.182],
+          [-47.8082,-21.1817],
+          [-47.8085,-21.1817],
+          [-47.809,-21.1823],
+          [-47.8093,-21.1826],
+          [-47.8091,-21.1829],
+          [-47.8087,-21.1829],
+          [-47.8087,-21.1829],
+          [-47.8083,-21.1823]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B58",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "042-043",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "0",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8089,-21.1808],
+          [-47.8085,-21.181],
+          [-47.8081,-21.1807],
+          [-47.8082,-21.1803],
+          [-47.8085,-21.1801],
+          [-47.8089,-21.1798],
+          [-47.8093,-21.1797],
+          [-47.8096,-21.1799],
+          [-47.8096,-21.1803],
+          [-47.8096,-21.1803],
+          [-47.8089,-21.1808]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B57",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "008-009",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8127,-21.1825],
+          [-47.8127,-21.1822],
+          [-47.8122,-21.1816],
+          [-47.812,-21.1814],
+          [-47.8116,-21.1815],
+          [-47.8116,-21.1818],
+          [-47.8118,-21.1821],
+          [-47.8121,-21.1823],
+          [-47.8123,-21.1826],
+          [-47.8127,-21.1825]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B56",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "307",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8025,-21.1823],
+          [-47.8027,-21.1823],
+          [-47.8028,-21.1825],
+          [-47.8029,-21.1827],
+          [-47.8028,-21.1828],
+          [-47.8027,-21.183],
+          [-47.8025,-21.183],
+          [-47.8023,-21.1828],
+          [-47.8022,-21.1827],
+          [-47.8023,-21.1825],
+          [-47.8025,-21.1823],
+          [-47.8025,-21.1823]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B53",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "237-238-239-240",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7936,-21.1614],
+          [-47.7931,-21.1614],
+          [-47.7931,-21.161],
+          [-47.7935,-21.1607],
+          [-47.7955,-21.1591],
+          [-47.796,-21.1591],
+          [-47.796,-21.1595],
+          [-47.796,-21.1595],
+          [-47.7936,-21.1614]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B52",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "516-528",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.834,-21.1391],
+          [-47.8337,-21.1391],
+          [-47.8329,-21.1384],
+          [-47.833,-21.1381],
+          [-47.8332,-21.1379],
+          [-47.8335,-21.1379],
+          [-47.8343,-21.1386],
+          [-47.8342,-21.1389],
+          [-47.8342,-21.1389],
+          [-47.834,-21.1391]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B50",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "510",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8301,-21.1476],
+          [-47.8299,-21.1474],
+          [-47.8296,-21.1475],
+          [-47.8293,-21.1477],
+          [-47.8293,-21.148],
+          [-47.8295,-21.1482],
+          [-47.8298,-21.1484],
+          [-47.83,-21.1483],
+          [-47.8303,-21.1481],
+          [-47.8303,-21.1479],
+          [-47.8303,-21.1479],
+          [-47.8301,-21.1476]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B4F",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "509",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8283,-21.1489],
+          [-47.8281,-21.1487],
+          [-47.8278,-21.1488],
+          [-47.8275,-21.149],
+          [-47.8275,-21.1493],
+          [-47.8277,-21.1495],
+          [-47.828,-21.1497],
+          [-47.8282,-21.1496],
+          [-47.8285,-21.1494],
+          [-47.8285,-21.1491],
+          [-47.8285,-21.1491],
+          [-47.8283,-21.1489]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'D6B4E",
+        "RTIPO": "RedeInterligacao",
+        "IGUNOME": "508",
+        "IGUCAMADA": "RedeInterligacao",
+        "IGUMEDICAO": "1",
+        "stroke": "#5B5B5B",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6,
+        "fill": "#5B5B5B",
+        "fillOpacity": 0.3,
+        "dashArray": "4, 1, 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8267,-21.1502],
+          [-47.8265,-21.15],
+          [-47.8262,-21.1501],
+          [-47.8259,-21.1503],
+          [-47.8259,-21.1506],
+          [-47.8261,-21.1508],
+          [-47.8264,-21.151],
+          [-47.8267,-21.1509],
+          [-47.8269,-21.1507],
+          [-47.8269,-21.1504],
+          [-47.8269,-21.1504],
+          [-47.8267,-21.1502]
+        ]
+       ]
+      }
+     }
+  ]
+}

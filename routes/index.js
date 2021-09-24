@@ -4,6 +4,7 @@ const passport = require('passport');
 const initializePassport = require('../config/passport-config');
 const User = require('../models/user');
 const router = express.Router();
+const {checkAuthenticated, checkNotAuthenticated, checkUserCity, checkError, checkIsAdmin} = require('../public/js/check')
 
 initializePassport(
     passport,
@@ -65,26 +66,5 @@ router.delete('/logout', (req, res) => {
     res.redirect('/login');
 });
 
-function checkAuthenticated(req, res, next) {
-    if (req.isAuthenticated()) {
-        return next();
-    }
-    res.redirect('/login');
-};
-
-function checkNotAuthenticated(req, res, next) {
-    if (req.isAuthenticated()) {
-        return res.redirect('/');
-    }
-    next();
-};
-
-function checkError(req) {
-    if (req.query.error) {
-        return req.query.error
-    } else {
-        return null
-    }
-}
 
 module.exports = router;

@@ -1,0 +1,506 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+   "app": "IGU",
+   "arquivo": "Y:/__tmp/dados/IGU-ProjetosUrbanosImplantados.geojson",
+   "fonte": "e0_DE-IGU.001-7A09-001_Medição12_B (almyr).dwg",
+   "timestamp": "2020-07-01T09:59:52:Z",
+   "local": "igu-polygon2geojson - A",
+   "tipo": "ProjetosUrbanosImplantados",
+   "quantidade": 14
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1F27E4",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "034_Viadutoindependenciaxprofessorjoaofiusa",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8179,-21.1995],
+          [-47.8161,-21.2007],
+          [-47.8146,-21.1987],
+          [-47.8166,-21.1976],
+          [-47.8179,-21.1995]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D9896",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "033_Eixonortesultrincheira",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8074,-21.191],
+          [-47.8061,-21.1912],
+          [-47.8061,-21.1879],
+          [-47.8057,-21.1869],
+          [-47.8065,-21.1865],
+          [-47.8079,-21.1881],
+          [-47.8071,-21.1887],
+          [-47.8074,-21.191]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D4641",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "030c_Eixonortesultrecho4",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8155,-21.2092],
+          [-47.8167,-21.2088],
+          [-47.8187,-21.2108],
+          [-47.8206,-21.2126],
+          [-47.8217,-21.2144],
+          [-47.8223,-21.2146],
+          [-47.8267,-21.2129],
+          [-47.8246,-21.2101],
+          [-47.8254,-21.2095],
+          [-47.8286,-21.2134],
+          [-47.8221,-21.2168],
+          [-47.8212,-21.2165],
+          [-47.8206,-21.2155],
+          [-47.8193,-21.2131],
+          [-47.8179,-21.2121],
+          [-47.8163,-21.2109],
+          [-47.8155,-21.2092]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1D3793",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "080_Pres-Vargas",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8077,-21.1911],
+          [-47.8061,-21.1913],
+          [-47.8064,-21.1925],
+          [-47.8069,-21.1953],
+          [-47.8065,-21.1954],
+          [-47.8068,-21.1978],
+          [-47.8072,-21.1994],
+          [-47.8092,-21.2038],
+          [-47.8109,-21.2075],
+          [-47.8124,-21.2107],
+          [-47.8142,-21.2143],
+          [-47.8147,-21.2194],
+          [-47.82,-21.2172],
+          [-47.8209,-21.2168],
+          [-47.8204,-21.2156],
+          [-47.8162,-21.2167],
+          [-47.8157,-21.214],
+          [-47.8137,-21.21],
+          [-47.8132,-21.2094],
+          [-47.8136,-21.209],
+          [-47.813,-21.2084],
+          [-47.8117,-21.2056],
+          [-47.8106,-21.2027],
+          [-47.8089,-21.1984],
+          [-47.8083,-21.1945],
+          [-47.8078,-21.1913],
+          [-47.8077,-21.1911]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1D2C",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "030a_Eixonortesultrecho1",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7853,-21.1404],
+          [-47.7855,-21.1411],
+          [-47.7838,-21.1417],
+          [-47.7822,-21.1423],
+          [-47.7774,-21.1438],
+          [-47.7668,-21.1475],
+          [-47.7637,-21.1377],
+          [-47.7648,-21.1374],
+          [-47.7676,-21.1461],
+          [-47.7853,-21.1404]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A76",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "081_Adequacaodiederichsenxpresvargas",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8087,-21.1969],
+          [-47.8084,-21.1944],
+          [-47.8065,-21.1946],
+          [-47.8066,-21.1954],
+          [-47.8058,-21.1951],
+          [-47.8055,-21.196],
+          [-47.8073,-21.1967],
+          [-47.8074,-21.1971],
+          [-47.8087,-21.1969]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A75",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "040_Avcafe",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8462,-21.1734],
+          [-47.8457,-21.1715],
+          [-47.8415,-21.1729],
+          [-47.839,-21.1738],
+          [-47.834,-21.1742],
+          [-47.8269,-21.1742],
+          [-47.8238,-21.1743],
+          [-47.8209,-21.1741],
+          [-47.8179,-21.1736],
+          [-47.8165,-21.1738],
+          [-47.8155,-21.1741],
+          [-47.8152,-21.175],
+          [-47.816,-21.1759],
+          [-47.8177,-21.1749],
+          [-47.8211,-21.1751],
+          [-47.8232,-21.1752],
+          [-47.8294,-21.1753],
+          [-47.8347,-21.1753],
+          [-47.8396,-21.1749],
+          [-47.8447,-21.1736],
+          [-47.8462,-21.1734]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A73",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "021_Adequacaonovedejulhoxportugal",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8029,-21.1939],
+          [-47.8024,-21.1948],
+          [-47.8012,-21.1945],
+          [-47.801,-21.1954],
+          [-47.8002,-21.1953],
+          [-47.8005,-21.1938],
+          [-47.7993,-21.1934],
+          [-47.8008,-21.1917],
+          [-47.8008,-21.1913],
+          [-47.8017,-21.1912],
+          [-47.8014,-21.1934],
+          [-47.8029,-21.1939]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A70",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "011_Pompeudecamargo",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8133,-21.1696],
+          [-47.8119,-21.1676],
+          [-47.8111,-21.1681],
+          [-47.8125,-21.1701],
+          [-47.8133,-21.1696]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A6F",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "032_Viadutomogiana",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7923,-21.1491],
+          [-47.791,-21.1496],
+          [-47.7875,-21.143],
+          [-47.7889,-21.1424],
+          [-47.7923,-21.1491],
+          [-47.7923,-21.1491]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A6C",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "031_Viadutobrasilxthomazwhately",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7867,-21.138],
+          [-47.7847,-21.1388],
+          [-47.7869,-21.1431],
+          [-47.7889,-21.1424],
+          [-47.7867,-21.138]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A69",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "060_Saudade",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.7961,-21.158],
+          [-47.7969,-21.1574],
+          [-47.792,-21.1517],
+          [-47.7911,-21.1497],
+          [-47.7923,-21.1492],
+          [-47.7936,-21.1511],
+          [-47.8096,-21.1695],
+          [-47.8074,-21.1712],
+          [-47.7961,-21.158]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'1B1A68",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "050_Dpedro",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8362,-21.139],
+          [-47.8334,-21.1368],
+          [-47.8319,-21.1382],
+          [-47.8335,-21.1398],
+          [-47.8302,-21.1462],
+          [-47.8098,-21.1622],
+          [-47.8134,-21.1662],
+          [-47.8118,-21.1673],
+          [-47.8131,-21.1691],
+          [-47.8166,-21.1667],
+          [-47.8127,-21.1624],
+          [-47.8327,-21.147],
+          [-47.8362,-21.139]
+        ]
+       ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "HANDLE": "'14D56A",
+        "RTIPO": "ProjetosUrbanosImplantados",
+        "IGUNOME": "030b_Eixonortesultrecho2",
+        "IGUCAMADA": "ProjetosUrbanosImplantados",
+        "IGUMEDICAO": "-",
+        "stroke": "#6F8F8F",
+        "strokeWidth": 4,
+        "strokeOpacity": 0.8,
+        "fill": "#6F8F8F",
+        "fillOpacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+          [-47.8073,-21.1888],
+          [-47.808,-21.1883],
+          [-47.8064,-21.1863],
+          [-47.8056,-21.1868],
+          [-47.8011,-21.1815],
+          [-47.797,-21.1766],
+          [-47.7944,-21.1748],
+          [-47.7941,-21.1738],
+          [-47.7889,-21.1677],
+          [-47.7883,-21.1669],
+          [-47.7894,-21.1642],
+          [-47.7799,-21.1521],
+          [-47.7863,-21.1479],
+          [-47.7884,-21.1468],
+          [-47.7889,-21.1478],
+          [-47.787,-21.1487],
+          [-47.7817,-21.152],
+          [-47.7875,-21.1598],
+          [-47.7907,-21.1638],
+          [-47.7898,-21.1669],
+          [-47.7954,-21.1733],
+          [-47.7959,-21.1748],
+          [-47.7973,-21.1757],
+          [-47.7985,-21.1768],
+          [-47.8123,-21.1934],
+          [-47.816,-21.198],
+          [-47.8172,-21.1987],
+          [-47.8175,-21.1998],
+          [-47.8205,-21.2034],
+          [-47.8247,-21.2085],
+          [-47.8238,-21.2091],
+          [-47.8165,-21.2004],
+          [-47.8156,-21.1998],
+          [-47.8151,-21.1985],
+          [-47.8109,-21.1934],
+          [-47.8073,-21.1888],
+          [-47.8073,-21.1888]
+        ]
+       ]
+      }
+     }
+  ]
+}

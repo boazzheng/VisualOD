@@ -3,7 +3,7 @@ const router = express.Router()
 const User = require('../models/user')
 const City = require('../models/city')
 const bcrypt = require('bcrypt');
-
+const {checkAuthenticated, checkNotAuthenticated, checkUserCity, checkError, checkIsAdmin} = require('../public/js/check')
 
 // All Users Route
 router.get('/', checkAuthenticated, checkIsAdmin, async (req, res) => {
@@ -134,33 +134,5 @@ router.delete('/logout', (req, res) => {
   res.redirect('/login');
 });
 
-function checkAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    return next();
-  }
-  res.redirect('/login');
-};
-
-function checkIsAdmin(req, res, next) {
-  const currentUserID = req.session.passport.user;
-  if (req.isAuthenticated()) {
-    currentUser = User.findById(currentUserID, (err, user) => {
-      if (user.isAdmin) {
-        return next();
-      };
-      res.redirect('/');
-    });
-  } else {
-    res.redirect('/login')
-  };
-}
-
-function checkError(req) {
-  if (req.query.error) {
-    return req.query.error
-  } else {
-    return null
-  }
-}
 
 module.exports = router

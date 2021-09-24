@@ -18,6 +18,7 @@ const userRouter = require('./routes/users');
 const indexRouter = require('./routes/index');
 const cityRouter = require('./routes/cities');
 const odRouter = require('./routes/od');
+const iguDataRouter = require('./routes/igu');
 
 mongoose.connect(
     process.env.DATABASE_URL, 
@@ -61,5 +62,6 @@ app.use('/users', userRouter);
 app.use('/cities', cityRouter);
 app.use('/OD', odRouter);
 app.use('/', indexRouter);
+app.use('/igu/dados', iguDataRouter);
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
